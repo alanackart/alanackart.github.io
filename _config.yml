@@ -28,27 +28,27 @@ email: alanackart@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: HOME
 
   -
     href: /categories/
-    label: 分类
+    label: CATEGORIES
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: ARCHIVES
 
   -
     href: /wiki/
-    label: 维基
+    label: WIKI
 
   -
     href: /links/
-    label: 链接
+    label: LINKS
 
   -
     href: /about/
-    label: 关于
+    label: ABOUT
 
 # ---------------- #
 #       RSS        #
@@ -93,14 +93,6 @@ comments_provider: gitalk
 # https://disqus.com
 disqus:
     username: 
-# https://imsun.net/posts/gitment-introduction/
-#gitment:
-#    owner: mzlogin
-#    repo: blog-comments
-#    oauth:
-#        client_id: d2e1cbbd298958076462
-#        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 6e5bf0a3efafc35f03f1                            #生成的clientID
