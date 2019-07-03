@@ -1,16 +1,14 @@
 ---
-layout:     post
-title:      金融基础知识
-subtitle:   记载一次开发中的纠纷，清算方式/结算方式
-date:       2019-06-14
-update:		2019-06-14
-author:     Alan
-header-img: img/post-bg-plum-blossom.jpg
-catalog: true
-tags:
-    - Financial
+layout: post
+title: Financial Knowledge
+categories: Financial
+description: Basic Financial Knowledge
+keywords: Financial, Knowledge
 ---
-# 背景
+
+高大上的金融知识， 只要肯想也都可以掌握一点， 对自己也没坏处。
+
+# 清算方式vs.结算方式
 
 ​	由于对清算方式和结算方式的概念不太清楚， 自己作为接口开发被下游怼的很惨， 现在稍稍列一下概念
 
