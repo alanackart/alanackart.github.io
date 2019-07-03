@@ -7,7 +7,7 @@ keywords: 		Linux， Line
 ---
 \r, \n,CR, LF, ^M分别是什么东东
 
-# 一、区别
+# 区别
 
 - windows中的换行符是\r\n
 - linux/unix下的换行符是\n。
