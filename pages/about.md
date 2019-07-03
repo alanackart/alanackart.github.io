@@ -15,7 +15,7 @@ Hey，我是**FangChao**，一枚新手程序猿。
 
 曾经，我信奉一句话， THE LORD IS MY LIGHT. 现在我相信两个人， 相信她是适合我的，也相信我每天会为她付出努力。
 
-## 联系
+## Contacts
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})

@@ -93,6 +93,7 @@ comments_provider: gitalk
 # https://disqus.com
 disqus:
     username: 
+future: true  
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 6e5bf0a3efafc35f03f1                            #生成的clientID
