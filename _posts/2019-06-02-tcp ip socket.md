@@ -1,15 +1,11 @@
 ---
-layout:     post
-title:      Socket Programming
-subtitle:   Socket Programming in C/CPP
-date:       2019-06-02
-update:		2019-06-11
-author:     Alan
-header-img: img/post-bg-plum-blossom.jpg
-catalog: true
-tags:
-    - TCP/IP
+layout:     	post
+title:      	Computer Networks & Socket Programming
+categories: 	TCP/IP
+description:   	Computer Networks(TCP/IP) & Socket Programming()
+keywords: 		network, TCP/IP
 ---
+网络知识的总结， Socket编程经验
 # network device
 
 - 网闸(GAP)： 物理上做到了两端不同时连接， [阅读](http://expert.51cto.com/art/200804/71720.htm)

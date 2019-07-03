@@ -6,11 +6,9 @@ description:   	C time funtions & it's use
 keywords: 		C/CPP, time
 ---
 
-# 序言
-
 曾经在C的时间处理方面卡了较久， 现在特地来做个总结
 
-# C code snippets：
+# C time functions demo：
 
 ```cpp
 #include        <string.h>
@@ -48,21 +46,8 @@ int main(){
 
 ```
 
--  struct tm localct 是结构体(可通过.直接访问成员)， 而struct tm *info 是结构体指针(info需要通过->来访问成员)做函数参数时结构体指针会更有效率
-
-- 需要注意sscanf的使用， 格式化读入字符串， 可节省解析字符串的工作
-
-- **Summer Time Is [Daylight Saving Time](<https://en.wikipedia.org/wiki/Daylight_saving_time>)**, there is a tricky field in struct tm called **tm_isdst**
-      It should be 1 (or a positive value), DST is in effect.
-      It should be 0, because, as you say, DST is not in effect.
-      It should be 0, because DST was not in effect at that time.
-
-- ```
-  time_t mktime (struct tm * timeptr); 
-  ```
-
-  Convert tm structure to time_t   
-
+- `time_t mktime (struct tm * timeptr);` Convert tm structure to time_t   
+  
 - Don't forget to adjust members in struct tm (-1, -1900) etc.  tm_year is relative to 1900 in POSIX-compliant platforms. Don't mess up with unix timestamp, see this [link](https://stackoverflow.com/questions/45355478/why-is-the-tm-year-member-in-struct-tm-relative-to-1900-rather-than-1970-in-c-on)
 
 - **time_t time(time_t \*seconds)** returns the time since the Epoch (00:00:00 UTC, January 1, 1970), measured in seconds. If **seconds** is not NULL, the return value is also stored in variable **seconds**. see on [link](https://www.tutorialspoint.com/c_standard_library/c_function_time.htm).
@@ -72,8 +57,6 @@ int main(){
   [link](https://www.tutorialspoint.com/c_standard_library/c_function_difftime.htm).
 
 - **struct tm \*localtime(const time_t \*timer)** uses the time pointed by **timer** to fill a **tm** structure with the values that represent the corresponding local time. The value of **timer** is broken up into the structure **tm** and expressed in the local time zone. see on this [link](<https://www.tutorialspoint.com/c_standard_library/c_function_localtime.htm>).
-
-  
 
 # time Data Type:
 
@@ -103,3 +86,17 @@ int main(){
 		};
 ```
 
+# 特别注意
+
+- 不要使用 `if(time.second % 60  = 0){event()}` 这种去做timer, 十分可能在指定时间时并没有执行到这个判断
+
+- 需要注意sscanf的使用， 格式化读入字符串， 可节省解析字符串的工作
+
+- struct tm localct` 是结构体(可通过.直接访问成员)， 而struct tm *info 是结构体指针(info需要通过->来访问成员)做函数参数时结构体指针会更有效率
+
+- **Summer Time Is [Daylight Saving Time](<https://en.wikipedia.org/wiki/Daylight_saving_time>)**, there is a tricky field in `struct tm` called `tm_isdst`
+      It should be 1 (or a positive value), DST is in effect.
+      It should be 0, because, as you say, DST is not in effect.
+      It should be 0, because DST was not in effect at that time.
+
+  在我们的程序中使用到 `struct tm` 时必须对tm_isdst成员进行设定， 中国应当未0，不能假定编译器会将其初始化为0， 避免时间差几个小时。
