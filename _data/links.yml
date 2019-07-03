@@ -1,0 +1,3 @@
+- name: SCMP
+  url: https://www.scmp.com/news/china
+  src: news
