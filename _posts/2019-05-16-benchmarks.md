@@ -1,17 +1,12 @@
 ---
-layout:     post
-title:     benchmarks(redis, kafka)
-subtitle:   basic benchmarks on (redis, kafka)
-date:       2019-05-16
-update:     2019-06-26
-author:     Alan
-header-img: img/post-bg-plum-blossom.jpg
-catalog: true
-tags:
-    - benchmarks
+layout:     	post
+title:      	Benchmarks on DB & messae queue
+categories: 	Benchmarks
+description:   	Benchmarks on DB & messae queue
+keywords: 		Linux, Shell
 ---
 
-
+虚拟机上简单跑了下redis的评测工具
 
 # test for redis
 

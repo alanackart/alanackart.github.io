@@ -6,6 +6,7 @@ description:   	frequently used Linux command， cheat sheet
 keywords: 		Linux, Shell
 ---
 
+常用的一些linux命令和操作
 
 # shell(file i/o)
 

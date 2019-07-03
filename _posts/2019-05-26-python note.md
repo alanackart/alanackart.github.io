@@ -1,14 +1,13 @@
 ---
-layout:     post
-title:     python notes and summary
-subtitle:   python notes and summary(to be continued)
-date:       2019-05-26
-author:     Alan
-header-img: img/post-bg-plum-blossom.jpg
-catalog: true
-tags:
-    - Python
+layout:     	post
+title:      	Python KnowHow
+categories: 	Python
+description:   	Python知识点和总结
+keywords: 		Python
 ---
+
+Python知识点和总结
+
 # basic knowledge
 
 - 关于.pyc文件：pyc 文件是python 脚本经编译后的中间文件(byte code, 与机器无关)， 可以由python 命令

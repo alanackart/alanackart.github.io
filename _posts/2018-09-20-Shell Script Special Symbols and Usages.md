@@ -1,14 +1,11 @@
 ---
-layout:     post
-title:      Special Variables in SHELL 
-subtitle:   Special Variables in SHELL $
-date:       2018-09-20
-author:     Alan
-header-img: img/post-bg-plum-blossom.jpg
-catalog: true
-tags:
-    - Shell
+layout:     	post
+title:      	unix special shell variables
+categories: 	Linux
+description:   	unix special shell variables
+keywords: 		Linux, Shell
 ---
+Some unix special shell variables
 
 ##### Special Variables
 

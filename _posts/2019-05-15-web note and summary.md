@@ -1,14 +1,11 @@
 ---
-layout:     post
-title:     web note & summarry
-subtitle:   web notes, tricks & summary
-date:       2019-05-15
-author:     Alan
-header-img: img/post-bg-plum-blossom.jpg
-catalog: true
-tags:
-    - Web
+layout:     	post
+title:      	Web Knowledge & Tips
+categories: 	Web
+description:   	Chrome operations
+keywords: 		Web, Chrome
 ---
+Web Knowledge & Tips
 
 ## procedure to clear chrome cache
 - Advanced 
