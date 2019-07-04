@@ -178,6 +178,7 @@ keywords: 		Linux, Shell
 - `find . -name '*.o' | xargs svn delete --force`
 - `svn st | grep ^D | awk '{print $2}' |xargs svn commit -m "remove files"` 
 - handle conflict: remove local file and svn update
+- **在windows环境使用svn client提交时，本地新建的空目录通过svn add 不能提交成功**
 
 # redis
 
