@@ -34,3 +34,12 @@ Linux服务器知识及几次生产事故(tragedy)总结
 - linux中/proc只存在于内存中， 是一种虚拟文件系统， 所以内核参数如mqueue的一些设置想持久化，则需要写入正真的文件中，如开机启动文件中, /etc/rc.d/rc， [阅读 Linux启动流程](http://www.ruanyifeng.com/blog/2013/08/linux_boot_process.html)
 - /tmp 目录自动清理, [阅读](https://www.cnblogs.com/kerrycode/p/5759941.html)
 
+# linux 系统概念
+
+## 线程适合于在SMP机器上运行，而进程则可以跨机器迁移。*SMP机器？*
+
+[牛客网](https://www.nowcoder.com/questionTerminal/b0e6c34f0a5f4065b05152ade39ccc97)
+
+[对称多处理器系统-SMP](https://blog.csdn.net/liujiaoyage/article/details/37722649)
+
+SMP是Symmetric Multi Processing的简称，意为**对称多处理系统**，内有许多紧耦合多处理器，这种系统最大的特点就是**共享所有资源**。与之相对立的标准是 MPP（Massively Parallel Processing），意为**大规模并行处理系统**，这样的系统是由许多松耦合处理单元组成的，这里指的是处理单元而不是处理器。每个单元内的CPU都有自己私有的资源，如总线、内存、硬盘灯。在每个单元内都有操作系统和管理   数据库   的实例副本。这种结构最大的特点在于**不共享资源。**     **因而线程更适合在SMP机器上进行，而进程则可以跨机器迁移。**
