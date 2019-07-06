@@ -1,3 +1,7 @@
 - name: SCMP
   url: https://www.scmp.com/news/china
   src: life
+
+- name: Computer keyboard key explanations
+  url: https://www.computerhope.com/keys.htm
+  src: tech
