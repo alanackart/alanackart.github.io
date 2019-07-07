@@ -5,3 +5,7 @@
 - name: Computer keyboard key explanations
   url: https://www.computerhope.com/keys.htm
   src: tech
+ 
+- name: GDB Tutorial(compile & debug)
+  url: https://web.eecs.umich.edu/~sugih/pointers/summary.html
+  src: tech
