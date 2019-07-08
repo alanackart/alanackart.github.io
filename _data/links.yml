@@ -9,3 +9,8 @@
 - name: GDB Tutorial(compile & debug)
   url: https://web.eecs.umich.edu/~sugih/pointers/summary.html
   src: tech
+
+- name: the traversel of binary tree(笔试的时候答错前序遍历和其递归算法了好丢人😂)
+  url: https://blog.csdn.net/My_Jobs/article/details/43451187
+  src: tech
+
