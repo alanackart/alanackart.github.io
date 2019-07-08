@@ -14,8 +14,6 @@ keywords: 		Linux, Shell
 
 - chsh # can not change defaut shell, it should be set in config file, search it later
 
-- bash;export DPATH=$HOME #*what is this, forgot*
-
 - io redirects
 
 - `./start_service.sh 2>&1 |tee prog.log`, output to terminal & file, ( 2>&1 redirct both stderr & stdout)
@@ -35,7 +33,7 @@ keywords: 		Linux, Shell
 - ls -d */
 - ls -l --block-size=M
 - ls -lh
-- ls .* (Be careful with hidden files or use `ls -al | grep 'pattern'`)
+- ls .* (Be careful with hidden files o use `ls -al | grep 'pattern'` instead
 - rm !(files_do_no_want_to_delete_delete)
 - chown fis test.txt
 - chgrp fefms test.txt
