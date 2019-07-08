@@ -16,16 +16,27 @@ keywords: 		Linux, Shell
 
 - io redirects
 
-- `./start_service.sh 2>&1 |tee prog.log`, output to terminal & file, ( 2>&1 redirct both stderr & stdout)
-- ​	1> file redirects stdout to file
-  
-- ​	2> file redirects stderr to file
-  
+- `./start_service.sh 2>&1 |tee prog.log`, output to terminal & file, ( `2>&1` redirct both stderr & stdout)
+
+- ​	`1>` file redirects stdout to file
+
+- ​	`2>` file redirects stderr to file
+
 - less + G file.txt
 
 - `tail -400f ws.log | grep 'token'`
 
 - shell脚本语法正常，但source失败， 可以考虑切换下SHELL试试
+
+- shell multiline comment
+
+  ```sh
+  : '
+  This is a
+  very neat comment
+  in bash
+  '
+  ```
 
 # file command
 

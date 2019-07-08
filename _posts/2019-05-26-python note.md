@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	Python KnowHow
+title:      	Python knowledge
 categories: 	Python
 description:   	Python知识点和总结
 keywords: 		Python
@@ -27,4 +27,15 @@ Python知识点和总结
   a, b  = b, a+b  实际上是元组tupple的赋值， 等价于(a, b) = (b, a+b)而非a=b, b=a+b(实际上，C, C++, JAVA
 都没有这样的赋值)
 
-- python docstring(java docstring, c/cpp  docstring)
+- python docstring(java docstring, c/cpp  docstring?)
+
+- python multiline comment
+
+  ```python
+  '''
+  This is a multiline
+  comment.
+  '''
+  ```
+
+  
