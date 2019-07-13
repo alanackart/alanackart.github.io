@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	为了她
+title:      	For the One I Love
 categories: 	Life
 description:   	写给自己的话
 keywords: 		Life, Love
