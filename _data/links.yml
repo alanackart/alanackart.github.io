@@ -10,7 +10,14 @@
   url: https://web.eecs.umich.edu/~sugih/pointers/summary.html
   src: tech
 
-- name: the traversel of binary tree(笔试的时候答错前序遍历和其递归算法了好丢人😂)
+- name: the traversel of binary tree
   url: https://blog.csdn.net/My_Jobs/article/details/43451187
   src: tech
 
+- name: accelerate github
+  url: https://blog.csdn.net/w958660278/article/details/81161224
+  src: chinanet
+
+- name: python pip mirror in China
+  url: https://zhuanlan.zhihu.com/p/32872863
+  src: chinanet
