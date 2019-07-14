@@ -10,7 +10,7 @@ keywords: 		  Golang, go
 
 # 开发环境搭建
 
-- 需要安装go1.11以上的版本， [配置好`GOPROXY`和`GO111MODULE](https://my.oschina.net/u/3305368/blog/3044169)`后使用国内代理来Import依赖。
+- 需要安装go1.11以上的版本， [配置好GOPROXY和GO111MODULE](https://my.oschina.net/u/3305368/blog/3044169)后使用国内代理来Import依赖。
 
 - third party tool: 
   - Go autocomplete tool: `go get -u github.com/nsf/gocode`
