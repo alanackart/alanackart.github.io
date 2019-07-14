@@ -230,8 +230,15 @@ keywords: 		Linux, Shell
   ./kafka-topics.sh --zookeeper 127.0.01:8032 --alter --topic  EventNew --partitions 1 #(只能增加)
   ```
 
-
   若删除， 新增不行(消费者进程未停止全)， 可以考虑停掉kafka, 将默认parttition数设为1, 再重开kafka， 停掉后新建会报(: Replication factor: 1 larger than available brokers: 0, 没有检测到ON的kafka)
+
+- list all topics
+
+  ```shell
+  ./kafka-topics.sh --list --zookeeper localhost:2181
+  ```
+
+  
 
 # ubuntu
 
