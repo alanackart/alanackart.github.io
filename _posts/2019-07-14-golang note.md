@@ -1,14 +1,32 @@
 ---
 layout:     		post
-title:      		   MySQL notes & tips 
-categories: 	      MySQL
-description:   		MySQL与ORACLE的区别及其他总结
-keywords: 		  MySQL, SQL
+title:      		   Golang Notes & Tips 
+categories: 	      Golang
+description:   		Golang学习总结
+keywords: 		  Golang, go
 ---
 
-去IOE? 多学习下MySQL吧
+精通x语言😂，还是先来看看Go吧
+
+# 开发环境搭建
+
+- 需要安装go1.11以上的版本， [配置好`GOPROXY`和`GO111MODULE](https://my.oschina.net/u/3305368/blog/3044169)`后使用国内代理来Import依赖。
+
+- third party tool: 
+  - Go autocomplete tool: `go get -u github.com/nsf/gocode`
+  - Go debug tool: `go get -u github.com/go-delve/delve/cmd/dlv`
+
+# 总结
+
+- multiline strings： backticks instead of double quotes.
+
+  ```golang
+  `line 1
+  line 2
+  line 3`
+  ```
 
 # Readlist
 
-- [Oracle and MySQL Compared](https://docs.oracle.com/cd/E39885_01/doc.40/e18461/oracle_mysql_compared.htm#RPTMS114)
+
 
