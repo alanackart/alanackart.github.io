@@ -220,13 +220,13 @@ keywords: 		Linux, Shell
 
 - 查询消费者是否消费此消息
 
-  ```
-  ./kafka-console-consumer.sh --zookeeper 17.19.22.70:8032 --topic  SystemEvent --from-beginning
+  ```shell
+  ./kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic  mm_topic --from-beginning
   ```
 
 - 修改parttiton的数目时可用：
 
-  ```
+  ```shell
   ./kafka-topics.sh --zookeeper 127.0.01:8032 --alter --topic  EventNew --partitions 1 #(只能增加)
   ```
 
