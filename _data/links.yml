@@ -21,3 +21,7 @@
 - name: Python Pip Mirror In China
   url: https://zhuanlan.zhihu.com/p/32872863
   src: chinanet
+
+- name: Golang GOPROXY Setup($GOPROXY & $GO111MODULE)
+  url: https://my.oschina.net/u/3305368/blog/3044169
+  src: chinanet
