@@ -2,22 +2,22 @@
   url: https://www.scmp.com/news/china
   src: life
 
-- name: Computer keyboard key explanations
+- name: Computer Keyboard Key Explanations
   url: https://www.computerhope.com/keys.htm
   src: tech
  
-- name: GDB Tutorial(compile & debug)
+- name: GDB Tutorial(Compile & Debug)
   url: https://web.eecs.umich.edu/~sugih/pointers/summary.html
   src: tech
 
-- name: the traversel of binary tree
+- name: The Traversel Of Binary Tree
   url: https://blog.csdn.net/My_Jobs/article/details/43451187
   src: tech
 
-- name: accelerate github
+- name: Accelerate Github
   url: https://blog.csdn.net/w958660278/article/details/81161224
   src: chinanet
 
-- name: python pip mirror in China
+- name: Python Pip Mirror In China
   url: https://zhuanlan.zhihu.com/p/32872863
   src: chinanet

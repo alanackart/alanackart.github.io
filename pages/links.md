@@ -25,6 +25,14 @@ permalink: /links/
   {% endif %}
   {% endfor %}
 
+# ChinaNet
+
+  {% for link in site.data.links %}
+    {% if link.src == 'chinanet' %}
+
+  - [{{ link.name }}]({{ link.url }})
+    {% endif %}
+    {% endfor %}
 # Friends
 
 {% for link in site.data.links %}
@@ -34,11 +42,3 @@ permalink: /links/
   {% endif %}
 {% endfor %}
 
-# ChinaNet
-
-  {% for link in site.data.links %}
-    {% if link.src == 'chinanet' %}
-
-  - [{{ link.name }}]({{ link.url }})
-    {% endif %}
-    {% endfor %}
