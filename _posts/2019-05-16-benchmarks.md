@@ -19,10 +19,17 @@ keywords: 		Linux, Shell
   redis-benchmark -r 1000000 -n 2000000 -t get,set,lpush,lpop -q
 
 - result:
-  - SET: 104335.12 requests per second
-  - GET: 100010.01 requests per second
-  - LPUSH: 105786.52 requests per second
-  - LPOP: 103734.44 requests per second
+  ```
+  SET: 104335.12 requests per second
+  
+  GET: 100010.01 requests per second
+  
+  LPUSH: 105786.52 requests per second
+  
+  LPOP: 103734.44 requests per second
+  ```
+  
+  
 
 # test for web server
 
