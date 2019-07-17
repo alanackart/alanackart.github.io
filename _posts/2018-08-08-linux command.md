@@ -53,6 +53,7 @@ keywords: 		Linux, Shell
 - cp -rp source destination/
 - mkdir -p /home/fis
 - ls | grep pattern | sed -e 's/^/prefix/' -e 's/$/suffix/'
+- `mount --bind /media/tc1/folder /home/dvad/home` [How do I mount a folder from another partition?](https://askubuntu.com/questions/205841/how-do-i-mount-a-folder-from-another-partition)
 
 # grep 
 
@@ -128,6 +129,7 @@ keywords: 		Linux, Shell
 - user ping and telnet ip port, tracert 198.13.32.250
 - `netstat -n | awk '{print $7}' | sort | uniq -c | awk '{ print $2, $1 }' | awk '{ if ($2 >= 1 ) print $1, $2 }'` #统计网络状态
 - lsof -i :80 (check which process listening on 80 port)
+- `lsof -c program_name`(List opened files based on process names )
 - netstat -peanut | grep ":8000 "
 - exit telnet, try `Ctrl ]`
 

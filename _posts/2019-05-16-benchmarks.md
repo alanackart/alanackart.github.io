@@ -1,12 +1,12 @@
 ---
 layout:     	post
-title:      	Benchmarks on DB & messae queue
+title:      	Benchmarks 
 categories: 	Benchmarks
-description:   	Benchmarks on DB & messae queue
+description:   	各种评测
 keywords: 		Linux, Shell
 ---
 
-虚拟机上简单跑了下redis的评测工具
+走着瞧（测着瞧）
 
 # test for redis
 
@@ -24,4 +24,47 @@ keywords: 		Linux, Shell
   - LPUSH: 105786.52 requests per second
   - LPOP: 103734.44 requests per second
 
+# test for web server
 
+## 评测工具及命令
+
+webbench -c 300 -t 60 http://127.0.0.1:80/,  [webbench地址](https://github.com/alanackart/WebBench) 
+
+## 评测结果
+
+### nginx
+
+```
+chao@ubuntu:~/zaver/trunk$ webbench -c 300 -t 60 http://127.0.0.1:80/
+Webbench - Simple Web Benchmark 1.5
+Copyright (c) Radim Kolar 1997-2004, GPL Open Source Software.
+
+Request:
+GET / HTTP/1.0
+User-Agent: WebBench 1.5
+Host: 127.0.0.1
+
+Runing info: 300 clients, running 60 sec.
+
+Speed=1761903 pages/min, 25077754 bytes/sec.
+```
+
+### zaver(大神写的nginx简单实现)
+
+```
+chao@ubuntu:/var/log/nginx$ webbench -c 300 -t 60 http://127.0.0.1:3000/
+Webbench - Simple Web Benchmark 1.5
+Copyright (c) Radim Kolar 1997-2004, GPL Open Source Software.
+
+Request:
+GET / HTTP/1.0
+User-Agent: WebBench 1.5
+Host: 127.0.0.1
+
+Runing info: 300 clients, running 60 sec.
+
+Speed=321196 pages/min, 3704472 bytes/sec.
+Requests: 321196 susceed, 0 failed.
+```
+
+[zaver](https://github.com/alanackart/zaver)和nginx差距还是满大的， 自己可以再看看两者的源码
