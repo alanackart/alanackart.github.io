@@ -41,19 +41,38 @@ keywords: 		Linux, Shell
 # file command
 
 - ls -altr
+
 - ls -d */
+
 - ls -l --block-size=M
+
 - ls -lh
+
 - ls .* (Be careful with hidden files o use `ls -al | grep 'pattern'` instead
+
 - rm !(files_do_no_want_to_delete_delete)
+
 - chown fis test.txt
+
 - chgrp fefms test.txt
+
+- sudo chown -R admin:admin .* [Recursive chown starting with the directory above current directory](https://askubuntu.com/questions/631534/recursive-chown-starting-with-the-directory-above-current-directory) 
+
+  this happend to solve the problem of loggin hang after mirgrate to a new drive
+
 - du -h .
+
 - df -k
+
 - cp -rp source destination/
+
 - mkdir -p /home/fis
+
 - ls | grep pattern | sed -e 's/^/prefix/' -e 's/$/suffix/'
+
 - `mount --bind /media/tc1/folder /home/dvad/home` [How do I mount a folder from another partition?](https://askubuntu.com/questions/205841/how-do-i-mount-a-folder-from-another-partition)
+
+  [How to mount a new drive on startup](https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup)
 
 # grep 
 
