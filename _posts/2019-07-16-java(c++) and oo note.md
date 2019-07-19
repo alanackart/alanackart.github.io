@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	Java and OO(C++) Notes and Tips
+title:      	Java(C++) and OO Notes and Tips
 categories: 	Java
 description:   	Java/C++知识点和总结
 keywords: 		Python
