@@ -43,7 +43,9 @@ client端的处理比较简单，过程如下
 
 # ReadList
 
-- O_NONBLOCK vs. O_NDELAY for non-blocking sockets, 程序移植性, see [page](https://mail.python.org/pipermail/python-list/1999-May/013687.html)
-- fcntl()根据文件描述词来操作文件的特性， see [page](https://www.cnblogs.com/lonelycatcher/archive/2011/12/22/2297349.html)
+- O_NONBLOCK vs. O_NDELAY for non-blocking sockets, 程序移植性, read [page](https://mail.python.org/pipermail/python-list/1999-May/013687.html)
+- fcntl()根据文件描述词来操作文件的特性， read [page](https://www.cnblogs.com/lonelycatcher/archive/2011/12/22/2297349.html)
+- [大话 Select、Poll、Epoll](https://cloud.tencent.com/developer/article/1005481)
+- socket睡眠队列上的排他节点，read [Socket层实现系列 — 睡眠驱动的同步等待](https://blog.csdn.net/zhangskd/article/details/45770323), [[Linux网络编程“惊群”问题总结](https://www.cnblogs.com/Anker/p/7071849.html)
 
 
