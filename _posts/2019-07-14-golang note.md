@@ -6,7 +6,7 @@ description:   		Golang学习总结
 keywords: 		  Golang, go
 ---
 
-精通x语言😂，还是先来看看Go吧
+精通x语言😂，先来看看Go吧
 
 # 开发环境搭建
 

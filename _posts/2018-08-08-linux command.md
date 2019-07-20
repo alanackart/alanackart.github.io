@@ -74,6 +74,8 @@ keywords: 		Linux, Shell
 
   [How to mount a new drive on startup](https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup)
 
+- `tree` to print the directory tree in terminal
+
 # grep 
 
 - grep -rn . -e 'pattern'(不要使用-w选项)
@@ -98,12 +100,23 @@ keywords: 		Linux, Shell
 # vim 
 
 - vim, :%s/foo/bar/g
+
 - vim: hjkl, arrow
+
 - vim: :set nu, to show line number
+
 - vim: / forward to search, ? backward search
+
 - vim: :g/^$/d, remove empty line
+
 - 5dd, 7yy
+
 - do not use vi, vi can be awlful with large files, use more
+
+- ```shell
+  :w !sudo tee %
+  ```
+
 - copy and paste :
 
   - Place the cursor on the line you want to begin cutting.
@@ -167,6 +180,8 @@ keywords: 		Linux, Shell
 - `fuser -k /some/file, lsof -t /some/file | xargs kill`
 
 - top
+
+- pstree
 
 - pfiles pid
 
