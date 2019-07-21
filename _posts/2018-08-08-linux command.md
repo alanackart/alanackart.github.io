@@ -301,3 +301,7 @@ keywords: 		Linux, Shell
 
   `echo "00:20:40.25" | awk -F: '{ print ($1 * 3600) + ($2 * 60) + $3 }'`
 
+# Further Reading
+
+- [What's the difference between nohup and ampersand](https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand)
+
