@@ -31,7 +31,7 @@ the trait bound `{float}: std::ops::AddAssign<{integer}>` is not satisfied， A 
 
 # Others
 
-- Schroedinger's Cat
+## Schroedinger's Cat
 
 
 # Readlist
