@@ -8,7 +8,16 @@ keywords: 		Python
 
 Python知识点和总结
 
-# 环境问题
+# pip使用国内源
+
+创建$HOME/pip/pip.conf文件， 写入一下内容
+
+```
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[install]
+trusted-host=https://pypi.tuna.tsinghua.edu.cn
+```
 
 # 关于.pyc文件
 
