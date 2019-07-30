@@ -1,7 +1,7 @@
 ---
 layout:     		post
 title:      		Learn of Nginx(Web Server) 
-categories: 	    infrastructure
+categories: 	    Infrastructure
 description:   		Learn of Nginx(Web Server)
 keywords: 		  infrastructure, Nginx, Server
 ---
