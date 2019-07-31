@@ -14,7 +14,7 @@ MySQL从删除到跑路
 
 # 谈谈执行计划
 
-今天在用mybaits做一个查询时， 一直查不到结果， 后来一位同事告诉我说是因为我没有对char型字段没有填充到相同长度， 而我的解决方案就只是对某个条件字段先trim了下（[mybatis 使用oracle char 字段查询返回结果总是null](http://www.voidcn.com/article/p-blqnkdow-qg.html)）， 这位同事这个时候告诉我说， 这个字段刚好是索引字段之一， 这样处理会是索引失效会十分影响查询效能，我当时还不以为然（没觉得损失了多大的性能）， 结果在pl/sql里使用了F5查看了不同情况下的执行计划后发现， 使用索引和不适用索引cost**竟然相差20倍**。哈哈， 还是要多使用索引， 多关注执行计划啦😂
+今天在用mybaits做一个查询时， 一直查不到结果， 后来一位同事告诉我说是因为我没有对char型字段没有填充到相同长度， 而我的解决方案就只是对某个条件字段先trim了下（[mybatis 使用oracle char 字段查询返回结果总是null](http://www.voidcn.com/article/p-blqnkdow-qg.html)）， 这位同事这个时候告诉我说， 这个字段刚好是索引字段之一， 这样处理会是索引失效会十分影响查询效能，我当时还不以为然（没觉得损失了多大的性能）， 结果在pl/sql里使用了F5查看了不同情况下的执行计划后发现， 使用索引和不适用索引cost**竟然相差20倍**。哈哈， 还是要多使用索引， 多关注执行计划啦（其实一年前听讲座时就知道执行计划， 不过一直太忙又觉得高大上一直没尝试去看过😂）
 
 # 数据库基础设置
 
@@ -31,4 +31,5 @@ libf是library function的缩写
 - [Oracle and MySQL Compared](https://docs.oracle.com/cd/E39885_01/doc.40/e18461/oracle_mysql_compared.htm#RPTMS114)
 - [MySQL show current connection info](https://stackoverflow.com/questions/3613704/mysql-show-current-connection-info)：`select user();`
 - [MySQL List Users – How to List MySQL User Accounts via command line?](https://www.fastwebhost.in/blog/mysql-list-users-how-to-list-mysql-user-accounts-via-command-line/) `SELECT User FROM mysql.user;`
+- [Obtaining Execution Plan Information](https://dev.mysql.com/doc/refman/5.5/en/explain.html)
 
