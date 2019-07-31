@@ -283,8 +283,8 @@ keywords: 		Linux, Shell
 - install ssh server(for ubuntu)
 - apt-cache search keyword(for ubuntu)
 - lsb_release -a
-- sudo dpkg -i code_21212_amd64.deb
-- sudo dpkg -r code
+- sudo dpkg -i code_21212_amd64.deb (install)
+- sudo dpkg -r code (remove)
 
 # python
 
