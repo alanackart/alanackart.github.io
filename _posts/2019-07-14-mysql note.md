@@ -1,20 +1,22 @@
 ---
 layout:     		post
 title:      		   MySQL notes & tips 
-categories: 	      MySQL
+categories: 	      SQL
 description:   		MySQL与ORACLE的区别及其他总结
 keywords: 		  MySQL, SQL
 ---
 
-MySQL: 从删除到跑路
+MySQL从删除到跑路
 
 # 从删除到跑路
 
 ​		事故的原因是部署在客户的落地服务器在解析同步文件时， 在本应该是债券代码的地方遇到了乱码而产生的通配符， 结果就delete全部的业务所依赖的债券信息表，因为是落地部署在客户， 所以数据恢复相当麻烦。 讲这个自己知道的事故就是为了特别提醒自己。
 
+# 谈谈执行计划
+
+今天在用mybaits做一个查询时， 一直查不到结果， 后来一位同事告诉我说是因为我没有对char型字段没有填充到相同长度， 而我的解决方案就只是对某个条件字段先trim了下（[mybatis 使用oracle char 字段查询返回结果总是null](http://www.voidcn.com/article/p-blqnkdow-qg.html)）， 这位同事这个时候告诉我说， 这个字段刚好是索引字段之一， 这样处理会是索引失效会十分影响查询效能，我当时还不以为然（没觉得损失了多大的性能）， 结果在pl/sql里使用了F5查看了不同情况下的执行计划后发现， 使用索引和不适用索引cost**竟然相差20倍**。哈哈， 还是要多使用索引， 多关注执行计划啦😂
+
 # 数据库基础设置
-
-
 
 # 基础知识
 
