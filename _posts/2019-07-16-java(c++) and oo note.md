@@ -1,12 +1,12 @@
 ---
 layout:     	post
-title:      	Java(C++) and OO Notes and Tips
+title:      	Java Notes and Tips
 categories: 	Java
-description:   	Java/C++知识点和总结
-keywords: 		Python
+description:   	Java知识点和总结
+keywords: 		Java
 ---
 
-Java(C++)知识点和总结
+Java知识点和总结
 
 # 浮点数到整数的转换
 
@@ -47,11 +47,7 @@ Java的标识符和C的一样都是美元符（$）开始的， 这个C和JAVA�
 
 ​	java类的加载顺序: **父类static代码块，方法** –> **子类static代码块，方法** –> **父类构造方法**- -> **子类构造方法** 
 
-​	所以java中静态代码块， 方法(static  context)不能使用非静态方法（non static method or Object）
-
-# C++类的加载顺序
-
-​	
+​	所以java中静态代码块， 方法(static  context)不能使用非静态方法（non static method or Object）	
 
 # Readlist
 
