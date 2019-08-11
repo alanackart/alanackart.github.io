@@ -10,7 +10,7 @@ permalink: /about/
 
 Hey，我是**FangChao**，一枚程序猿。
 
-曾经，我信奉一句话， THE LORD IS MY LIGHT. 现在我相信两个人， 相信她是适合我的，也相信我每天会为她付出努力。
+曾经，我信奉一句话， THE LORD IS MY LIGHT. 现在我相信两个人， 相信她是适合我的，也相信我每天都坚持为她努力提升自己。
 
 ## Contacts
 
