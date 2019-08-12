@@ -285,6 +285,10 @@ keywords: 		Linux, Shell
 - lsb_release -a
 - sudo dpkg -i code_21212_amd64.deb (install)
 - sudo dpkg -r code (remove)
+- create a new sudo user([reference](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart))
+  - sudo adduser username
+  - sudo usermod -aG sudo username
+  - operation test: sudo ls -la /root
 
 # python
 
