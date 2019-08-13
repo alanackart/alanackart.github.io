@@ -32,6 +32,12 @@ libf是library function的缩写
 
 
 
+# 待解决问题
+
+## TIMESTAMP类型如何有更高的精度？
+
+目前`fis.key_logger`的time域只能存储类似此精度`2019-08-14 05:39:38`的， 按照[Timestamp with a millisecond precision: How to save them in MySQL](https://stackoverflow.com/questions/26299149/timestamp-with-a-millisecond-precision-how-to-save-them-in-mysql)操作后， 发现并没有效果， 需要再进行处理。
+
 # Readlist
 
 - [Oracle and MySQL Compared](https://docs.oracle.com/cd/E39885_01/doc.40/e18461/oracle_mysql_compared.htm#RPTMS114)
