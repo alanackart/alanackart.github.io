@@ -48,6 +48,8 @@ keywords: 		Linux, Shell
 
 - ls -lh
 
+- du -hs .  (size of direcitory)
+
 - ls .* (Be careful with hidden files o use `ls -al | grep 'pattern'` instead
 
 - rm !(files_do_no_want_to_delete_delete)
@@ -73,6 +75,8 @@ keywords: 		Linux, Shell
 - `mount --bind /media/tc1/folder /home/dvad/home` [How do I mount a folder from another partition?](https://askubuntu.com/questions/205841/how-do-i-mount-a-folder-from-another-partition)
 
   [How to mount a new drive on startup](https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup)
+
+  可能是这次VMWARE的磁盘使用了单个文件的模式， 磁盘大小扩展后直接使用GParted进行了下resize就OK了
 
 - `tree` to print the directory tree in terminal
 
@@ -278,6 +282,8 @@ keywords: 		Linux, Shell
 
 # ubuntu
 
+## command
+
 - sudo passwd root (set password for root, for ubunutu)
 - sudo timedatectl set-timezone Asia/Shanghai(for ubuntu)
 - install ssh server(for ubuntu)
@@ -288,11 +294,11 @@ keywords: 		Linux, Shell
 - create a new sudo user([reference](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart))
   - sudo adduser username
   - sudo usermod -aG sudo username
-  - operation test: sudo ls -la /root
+  - operation test: sudo ls -la /root  
 
 # python
 
-- python-3.6 -m pip install fish
+- python-3.6 -m pip install fish 
 
 - python -m py_compile script.py #  check the syntax of Python script without executing it (do not ever expect this command can check more than verify the syntax)
 

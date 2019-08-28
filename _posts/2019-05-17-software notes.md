@@ -31,6 +31,17 @@ keywords: 		Software
 - snipaste
 - vs code : change display language to en
 - everything: index & search file
+- Vmware WrokStation
+
+## Vmware WrokStation
+
+### virtual disk
+
+哈哈，自己的这台电脑一直没有成功的装过Ubuntu， 其实啦， 用虚拟机跑也还是挺方便的。今天发现了个问题， 新建guets系统时， 选单文件虚拟disk：扩展磁盘时还是在同一个盘上， 直接resize就可以； 多文件disk: 扩展磁盘后需要使用mount进行挂载。
+
+### vmware tools
+
+哈哈，当新创建的用户无法使用剪切板复制粘贴时可以先尝试重启下虚拟机， 如果不行再重新安装vmware tools. 
 
 ## config for cmder
 
