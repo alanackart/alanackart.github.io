@@ -12,8 +12,24 @@ Java知识点和总结(java会是一条不归路吗)
 
 ## 可以使用的idea插件
 
-- lombok
-- alibaba guidelines
+插件无法通过idea直接安装时， 可去[plugins.jetbrains.com](https://plugins.jetbrains.com/)下载到本币后再行安装。
+
+### lombok
+
+#### 引入maven包（引入失败问题）
+
+```xml
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.16.18</version>
+  <scope>provided</scope>
+</dependency>
+```
+
+哈哈之前一直导入失败， 还以为是自己手动装的lombok插件没装好， 按照[Java效率工具之Lombok](https://juejin.im/post/5b00517cf265da0ba0636d4b)给的dependency（和我原来相比多了版本号， [maven dependency without version](https://stackoverflow.com/questions/29476472/maven-dependency-without-version)）
+
+### alibaba guidelines
 
 # 浮点数到整数的转换
 
