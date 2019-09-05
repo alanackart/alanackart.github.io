@@ -1,6 +1,10 @@
 - name: SCMP
   url: https://www.scmp.com/news/china
   src: life
+  
+- name: WHAT IS THE DIFFERENCE BETWEEN A BOOKKEEPER AND AN ACCOUNTANT?
+  url: https://www.tenjago.com/difference-bookkeeper-accountant/
+  src: life
 
 - name: Computer Keyboard Key Explanations
   url: https://www.computerhope.com/keys.htm
