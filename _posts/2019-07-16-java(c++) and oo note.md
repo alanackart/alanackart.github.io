@@ -76,7 +76,9 @@ Java的标识符和C的一样都是美元符（$）开始的， 这个C和JAVA�
 
 ​	所以java中静态代码块， 方法(static  context)不能使用非静态方法（non static method or Object）
 
+# Spring Bean名称重复ConflictingBeanDefinitionException解决
 
+最近多次遇到过这个问题， 虽然原因已经知晓，但是原理还不是很清楚， 有空再来深入理解下，[Spring Bean名称重复ConflictingBeanDefinitionException解决](https://www.jianshu.com/p/74c801fd70f4)
 
 # Readlist
 
