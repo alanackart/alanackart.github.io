@@ -80,6 +80,12 @@ Java的标识符和C的一样都是美元符（$）开始的， 这个C和JAVA�
 
 最近多次遇到过这个问题， 虽然原因已经知晓，但是原理还不是很清楚， 有空再来深入理解下，[Spring Bean名称重复ConflictingBeanDefinitionException解决](https://www.jianshu.com/p/74c801fd70f4)
 
+# 记一次困扰自己3天的序列化偶发问题
+
+入手公司的新架构， 写了个服务，部署到开发测试环境之后， 总是发现客户端调用服务时有遇到序列话问题， `com.esotericsoftware.kryo.KryoException: Encountered unregistered class, Serialization trace:`百度后有看到说是对象太大，于是精简后也还是遇到了相同的状况， 后来请教了同事后发现是自己服务有做过迁移， 老的服务再自己新服务VO对象有改动的情况下没有重新部署过，导致服务在请求到2个新服务的提供者之外的另一服务时就会遇到问题（这里自己要检讨为什么自己不去关注自己的请求在两台机器的log里都没找到）， 同事当时用了命令查看到服务此时有3个提供者而不是两个，用的命令可以参考[zookeeper客户端命令行查看dubbo服务的生产者和消费者](https://blog.csdn.net/alinshen/article/details/79568280)
+
+
+
 # Readlist
 
 - [为什么函数不能根据返回类型来区分重载？](https://blog.csdn.net/chang384915878/article/details/79535416), 这个自己一直有误解， C++, Java都要注意
