@@ -29,7 +29,9 @@ Java知识点和总结(java会是一条不归路吗)
 
 哈哈之前一直导入失败， 还以为是自己手动装的lombok插件没装好， 按照[Java效率工具之Lombok](https://juejin.im/post/5b00517cf265da0ba0636d4b)给的dependency（和我原来相比多了版本号， [maven dependency without version](https://stackoverflow.com/questions/29476472/maven-dependency-without-version)）
 
-### alibaba guidelines
+### alibaba guidelines（alibaba 代码检查）
+
+### free mybaits plugin
 
 ## IDEA代码自动提示与补全功能消失
 
