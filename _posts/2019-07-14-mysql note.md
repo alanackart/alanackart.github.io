@@ -30,7 +30,11 @@ MySQL从删除到跑路
 
 libf是library function的缩写
 
+# Oracle与MySql的区别
 
+## 对象的大小写
+
+Oracle 使用双引号对列进行重命名， 默认情况下对象（列）的名称都是大写； MySql使用单引号对列进行重命名
 
 # 待解决问题
 
