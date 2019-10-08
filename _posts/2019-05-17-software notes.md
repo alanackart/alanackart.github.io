@@ -43,6 +43,16 @@ keywords: 		Software
 
 哈哈，当新创建的用户无法使用剪切板复制粘贴时可以先尝试重启下虚拟机， 如果不行再重新安装vmware tools. 
 
+### Cannot take ownership of two machines after power failure
+
+First shut down VMware Workstation then go and have a look at the folders where your virtual machines are stored.
+
+It is highly likely that you will see some .lck or .lock files and/or folders. Which ones you will see (lck or lock) depends on the version of your VMware product. 
+
+Delete those files (move them to another folder if you are more comfortable with that) and then go back to VMware Workstation.  
+
+**copy from  [communities.vmware](https://communities.vmware.com/message/1105740#1105740)**
+
 ## config for cmder
 
 ```
