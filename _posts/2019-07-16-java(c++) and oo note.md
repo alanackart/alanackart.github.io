@@ -92,7 +92,7 @@ Java的标识符和C的一样都是美元符（$）开始的， 这个C和JAVA�
 
 # ThreadLocal
 
-ThreadLocal和Synchronized都是为了解决多线程中相同变量的访问冲突问题，不同的点【复制自】[ThreadLocal](https://www.jianshu.com/p/3c5d7f09dfbd)
+ThreadLocal和Synchronized都是为了解决多线程中相同变量的访问冲突问题，不同的点[[ingxin简书ThreadLocal](https://www.jianshu.com/p/3c5d7f09dfbd)
 
 - Synchronized是通过线程等待，牺牲时间来解决访问冲突
 - ThreadLocal是通过每个线程单独一份存储空间，牺牲空间来解决冲突，并且相比于Synchronized，ThreadLocal具有线程隔离的效果，只有在线程内才能获取到对应的值，线程外则不能访问到想要的值。
