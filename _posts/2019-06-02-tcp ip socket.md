@@ -52,5 +52,7 @@ client端的处理比较简单，过程如下
 - fcntl()根据文件描述词来操作文件的特性， read [page](https://www.cnblogs.com/lonelycatcher/archive/2011/12/22/2297349.html)
 - [大话 Select、Poll、Epoll](https://cloud.tencent.com/developer/article/1005481)
 - socket睡眠队列上的排他节点，read [Socket层实现系列 — 睡眠驱动的同步等待](https://blog.csdn.net/zhangskd/article/details/45770323), [[Linux网络编程“惊群”问题总结](https://www.cnblogs.com/Anker/p/7071849.html)
+- [TCP新手误区--粘包的处理](https://blog.csdn.net/bjrxyz/article/details/73351248)
+- [TCP新手误区--心跳的意义](https://blog.csdn.net/bjrxyz/article/details/71076442)
 
 
