@@ -6,6 +6,11 @@ description:   	Computer Networks(TCP/IP) & Socket Programming()
 keywords: 		network, TCP/IP
 ---
 网络知识的总结， Socket编程经验
+
+TCP协议的特点
+
+TCP提供可靠的交付服务， 保证传输的数据无差错(数据校验， 参考[TCP新手误区--数据校验的意义](https://blog.csdn.net/bjrxyz/article/details/75194716))，不丢失（确认和重传），不重复（序号）， 有序（序号）
+
 # network device
 
 - 网闸(GAP)： 物理上做到了两端不同时连接， [阅读](http://expert.51cto.com/art/200804/71720.htm)
