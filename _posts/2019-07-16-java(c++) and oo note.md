@@ -33,6 +33,10 @@ Java知识点和总结(java会是一条不归路吗)
 
 ### free mybaits plugin
 
+## 其他工具
+
+ mybatis逆向生成工具:[Spring-generator]( https://github.com/EliMirren/Spring-generator.git)
+
 ## IDEA代码自动提示与补全功能消失
 
 网上很多资料说的是开启了省电模式，但是我的状况是pom.xml文件未被引入maven管理，可以看到文件的图标颜色已经发生了变化
