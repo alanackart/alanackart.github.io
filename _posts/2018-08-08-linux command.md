@@ -278,7 +278,6 @@ keywords: 		Linux, Shell
   ./kafka-topics.sh --list --zookeeper localhost:2181
   ```
 
-  
 
 # ubuntu
 
@@ -310,6 +309,10 @@ keywords: 		Linux, Shell
 - convert `00:20:40.28` (HH:MM:SS) to seconds 
 
   `echo "00:20:40.25" | awk -F: '{ print ($1 * 3600) + ($2 * 60) + $3 }'`
+
+# 脚本调试
+
+- 使用`bash -x`或`set -x`进行，详情阅读[如何调试BASH脚本](https://coolshell.cn/articles/1379.html)
 
 # Further Reading
 
