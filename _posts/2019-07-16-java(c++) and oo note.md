@@ -101,6 +101,41 @@ ThreadLocal和Synchronized都是为了解决多线程中相同变量的访问冲
 - Synchronized是通过线程等待，牺牲时间来解决访问冲突
 - ThreadLocal是通过每个线程单独一份存储空间，牺牲空间来解决冲突，并且相比于Synchronized，ThreadLocal具有线程隔离的效果，只有在线程内才能获取到对应的值，线程外则不能访问到想要的值。
 
+# Java传值还是引用
+
+先占个坑，以后再仔细去研究实现机制以及和C++的区别，现在我的理解是java是一个特殊的引用， 该引用可以重新指向别的地址（一旦指向别的地址，就跟原有指向的内容无关）， 可以使用一下的代码进行测试
+
+
+
+```java
+class TestClass {
+    public String a;
+    public String b;
+
+}
+
+ static void testFunc(TestClass t) {
+        t.a = "hello";
+        t.b = "world";
+        System.out.println(t.hashCode());
+        TestClass s = new TestClass();
+        System.out.println(s.hashCode());
+        s.a = "test";
+        s.b = "java";
+        t = s;
+        System.out.println(t.hashCode());
+    }
+
+public static void main(String[] args) throws Exception {
+    TestClass t = new TestClass();
+    System.out.println(t.hashCode());
+    testFunc(t);
+    System.out.println(t.a + "," + t.b);
+    System.out.println(t.hashCode());
+}
+```
+
+
 # Readlist
 
 - [为什么函数不能根据返回类型来区分重载？](https://blog.csdn.net/chang384915878/article/details/79535416), 这个自己一直有误解， C++, Java都要注意
