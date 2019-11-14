@@ -41,6 +41,11 @@ leave or separate oneself from (a group or place).
 
 ## Schroedinger's Cat
 
+# Politics
+
+## [abyss](https://www.ldoceonline.com/dictionary/abyss)
+
+Beijing's liaison office in *Hong Kong* says the city is “sliding into the *abyss of terrorism*” and a harsher crackdown is needed to end the unrest.
 
 # Readlist
 
