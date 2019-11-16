@@ -75,3 +75,8 @@ Ubuntu安装后大约会占6G的空间， 60G磁盘就会占用到10%， 好伤�
 
 - openhub for github
 - LDOCE 5(see huawei  drive)
+
+ReadList
+
+- [excel 打开csv中，数值类型超15位后变0](https://blog.csdn.net/q944324153/article/details/82994999)
+
