@@ -77,7 +77,16 @@ and b.OBJECT_NAME in ('IMS_SECURITY_SOR_INFO')
 and a.SESSION_ID = t.SID;
 ```
 
+# Oracle 存储过程/package卡住解决
 
+使用以下sql用sysdba登陆并在sqlplus中执行即可(ssh oracle@172.19.223.225； sqlplus / as sysdba)
+
+```sql
+SELECT    'ALTER SYSTEM KILL SESSION '''      || s.sid      || ','      || s.serial#      || ''' IMMEDIATE;'  FROM V$SESSION s WHERE SID 
+in(select SID from V$ACCESS WHERE object = 'MQ_QUOTE');
+```
+
+备注：查询时间太久了，可以查正在运行的sql进行解决
 
 # oracle 查看当前正在运行的sql
 
