@@ -145,6 +145,18 @@ public static void main(String[] args) throws Exception {
 # Readlist
 
 - [为什么函数不能根据返回类型来区分重载？](https://blog.csdn.net/chang384915878/article/details/79535416), 这个自己一直有误解， C++, Java都要注意
+
 - [Java线程同步：synchronized锁住的是代码还是对象](https://blog.csdn.net/xiao__gui/article/details/8188833)
+
+- [@Synchronized `synchronized` done right: Don't expose your locks.](https://projectlombok.org/features/Synchronized)
+
+- [lombok注解介绍](https://blog.csdn.net/sunsfan/article/details/53542374)
+
 - [JVM系列三:JVM参数设置、分析](https://www.cnblogs.com/redcreen/archive/2011/05/04/2037057.html)
+
+- [scheduleAtFixedRate vs scheduleWithFixedDelay](https://stackoverflow.com/questions/24649842/scheduleatfixedrate-vs-schedulewithfixeddelay)
+
+- [scheduleAtFixedRate 与 scheduleWithFixedDelay 的区别](https://blog.csdn.net/is_zhoufeng/article/details/8531037)
+
+  
 
