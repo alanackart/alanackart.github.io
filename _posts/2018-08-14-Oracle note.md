@@ -103,6 +103,14 @@ in(select SID from V$ACCESS WHERE object = 'MQ_QUOTE');
 
 step in 和step over表现相同， 无法进入代码的解决方案是右键， 选中 [**add debug information**]
 
+oracle 按规则解析xml字符串
+
+```sql
+select *  FROM XMLTABLE( '/Page/STRATEGY_LIST/STRATEGY'           PASSING               xmltype(  to_clob('                <Page><CUS_NUMBER>856</CUS_NUMBER><STRATEGY_LIST><STRATEGY><STRATEGY_ID>L_01_01_01</STRATEGY_ID><SEQ>1</SEQ><IS_USE>Y</IS_USE></STRATEGY><STRATEGY><STRATEGY_ID>L_01_01_02</STRATEGY_ID><SEQ>2</SEQ><IS_USE>Y</IS_USE></STRATEGY></STRATEGY_LIST></Page>            ') )         COLUMNS                          STRATEGY_ID  varchar2(20)    PATH './STRATEGY_ID',              SEQ varchar2(20)    PATH './SEQ',              IS_USE  varchar2(20)    PATH './IS_USE'     ) xmlt  ;  
+```
+
+
+
 # Oracle In 语句的参数个数限制
 
 Oracle 关于where语句中IN(1,2,3,4,...,1001,1002,...)不能超过1000的解决办法: 将参数通过dual查询出来；拆分为多个in语句, 参考[Oracle中的in参数的个数限制](https://blog.csdn.net/zhixinhuacom/article/details/31440899)
@@ -319,4 +327,5 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
 # Readlist
 
 - [AUTONOMOUS_TRANSACTION Pragma](https://docs.oracle.com/cd/B14117_01/appdev.101/b10807/13_elems002.htm)， A subprogram marked with this pragma can do SQL operations and commit or roll back those operations, without committing or rolling back the data in the main transaction. 
+- [racle中length、lengthb、substr、substrb用法小结, 注意中文编码长度问题](https://blog.csdn.net/zhangbingtao2011/article/details/51384393)
 
