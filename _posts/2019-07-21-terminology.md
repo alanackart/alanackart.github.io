@@ -33,13 +33,13 @@ the trait bound `{float}: std::ops::AddAssign<{integer}>` is not satisfied， A 
 
 recursion vs iteration vs dynamic programming
 
+## round trip vs two one way
+
 # Thread
 
 ## detach
 
 leave or separate oneself from (a group or place).
-
-
 
 # Others
 
