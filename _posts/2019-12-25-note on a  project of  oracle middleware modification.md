@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	记载为数据库中间件加心跳保持长连接
+title:      	A Project of Adding Heartbeat to DB Middleware
 categories: 	C/CPP
 description:   	C/CPP 线程
 keywords: 		C/CPP, 工程/project
