@@ -17,6 +17,10 @@
 - name: The Traversel Of Binary Tree
   url: https://blog.csdn.net/My_Jobs/article/details/43451187
   src: tech
+  
+- name: Regular Expressions (Regex) Cheat Sheet
+  url: https://www.petefreitag.com/cheatsheets/regex/
+  src: tech
 
 - name: Accelerate Github
   url: https://blog.csdn.net/w958660278/article/details/81161224
