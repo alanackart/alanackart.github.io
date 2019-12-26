@@ -22,12 +22,14 @@ boss之前给我们建议的方案是按照中间件现有的逻辑定时去请�
 - 最终同事帮忙找到了（😂，主要是太困了，就下班回去补觉了）问题是**头文件中的static变量每一个文件都是自己独有的一份**。
 - mutex = PTHREAD_MUTEX_INITIALIZER;报错
 - 重定义问题
+- 线程使用了形参（临时变量）的地址，`if( pthread_create(&thread, NULL, do_ping_periodically, &child_no) != 0 )`
 
 # 查问题时google到的一些链接
 
 - [Why won't extern link to a static variable?](https://stackoverflow.com/questions/2841762/why-wont-extern-link-to-a-static-variable)
 - [C pthread mutex: Expected expression before `{'](https://stackoverflow.com/questions/17864095/c-pthread-mutex-expected-expression-before)
 - [symbol is multiply defined](https://stackoverflow.com/questions/14870423/symbol-is-multiply-defined)
+- [C语言形参和实参的区别](http://c.biancheng.net/view/1853.html)
 
 # 写在最后
 
