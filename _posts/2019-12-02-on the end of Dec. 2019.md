@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	Words on end of 2019
+title:      	Words on end of Dec. 2019
 categories: 	Life
 description:   	12月的随笔
 keywords: 		Life
