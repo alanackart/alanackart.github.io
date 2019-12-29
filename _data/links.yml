@@ -1,3 +1,5 @@
+#new src should be configured at pages/links.md first, otherwise the 
+#links will not be seen
 - name: SCMP
   url: https://www.scmp.com/news/china
   src: life
