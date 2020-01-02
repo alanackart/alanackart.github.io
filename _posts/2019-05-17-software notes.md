@@ -19,6 +19,12 @@ keywords: 		Software
 
 - netstat -ano  | findstr 5840
 
+## Excel
+
+### 表格复制粘贴
+
+可以将网页上的表格直接复制粘贴到excel中，然后再进行处理，在自己没有掌握网页抓取前，这个方法还是挺好用的。
+
 ## must install 
 
 - snipaste
