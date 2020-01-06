@@ -29,6 +29,10 @@
 - name: Regular Expressions (Regex) Cheat Sheet
   url: https://www.petefreitag.com/cheatsheets/regex/
   src: tech
+ 
+- name: Basic XML concepts
+  url: https://nlp.stanford.edu/IR-book/html/htmledition/basic-xml-concepts-1.html
+  src: tech
 
 - name: Accelerate Github
   url: https://blog.csdn.net/w958660278/article/details/81161224
