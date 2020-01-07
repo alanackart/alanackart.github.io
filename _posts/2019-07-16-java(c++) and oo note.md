@@ -164,5 +164,7 @@ public static void main(String[] args) throws Exception {
 
 - [Dubbo-Fail to decode request due to: RpcInvocation](https://blog.csdn.net/u011450110/article/details/77716037)
 
+- [Checked vs Unchecked Exceptions in Java](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
+
   
 
