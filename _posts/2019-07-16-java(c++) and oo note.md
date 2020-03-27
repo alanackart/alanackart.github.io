@@ -166,5 +166,7 @@ public static void main(String[] args) throws Exception {
 
 - [Checked vs Unchecked Exceptions in Java](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
 
+- [log4j日志文件在java+maven工程中的使用](https://blog.csdn.net/u012922706/article/details/76885654?utm_source=blogxgwz4)
+
   
 
