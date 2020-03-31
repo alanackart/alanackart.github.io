@@ -170,5 +170,11 @@ public static void main(String[] args) throws Exception {
 
 - [Arthas - Java 线上问题定位处理的终极利器](https://blog.csdn.net/u013735734/article/details/102930307)
 
+- [java异常8：finally关键字的特点及作用](https://blog.csdn.net/yuming226/article/details/83444570)
+
+- [java中的map集合存放null值总结](https://blog.csdn.net/fenglongmiao/article/details/79561466)
+
+-  线程安全 vs  线程局部安全
+
   
 
