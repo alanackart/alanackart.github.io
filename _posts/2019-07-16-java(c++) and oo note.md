@@ -149,32 +149,20 @@ public static void main(String[] args) throws Exception {
 # Readlist
 
 - [为什么函数不能根据返回类型来区分重载？](https://blog.csdn.net/chang384915878/article/details/79535416), 这个自己一直有误解， C++, Java都要注意
-
 - [Java线程同步：synchronized锁住的是代码还是对象](https://blog.csdn.net/xiao__gui/article/details/8188833)
-
 - [@Synchronized `synchronized` done right: Don't expose your locks.](https://projectlombok.org/features/Synchronized)
-
 - [lombok注解介绍](https://blog.csdn.net/sunsfan/article/details/53542374)
-
 - [JVM系列三:JVM参数设置、分析](https://www.cnblogs.com/redcreen/archive/2011/05/04/2037057.html)
-
 - [scheduleAtFixedRate vs scheduleWithFixedDelay](https://stackoverflow.com/questions/24649842/scheduleatfixedrate-vs-schedulewithfixeddelay)
-
 - [scheduleAtFixedRate 与 scheduleWithFixedDelay 的区别](https://blog.csdn.net/is_zhoufeng/article/details/8531037)
-
 - [Dubbo-Fail to decode request due to: RpcInvocation](https://blog.csdn.net/u011450110/article/details/77716037)
-
 - [Checked vs Unchecked Exceptions in Java](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
-
 - [log4j日志文件在java+maven工程中的使用](https://blog.csdn.net/u012922706/article/details/76885654?utm_source=blogxgwz4)
-
 - [Arthas - Java 线上问题定位处理的终极利器](https://blog.csdn.net/u013735734/article/details/102930307)
-
 - [java异常8：finally关键字的特点及作用](https://blog.csdn.net/yuming226/article/details/83444570)
-
 - [java中的map集合存放null值总结](https://blog.csdn.net/fenglongmiao/article/details/79561466)
-
 -  线程安全 vs  线程局部安全
+-  [Java对象占用内存空间分析及实战](https://www.jianshu.com/p/40faea07d4d2)
 
   
 
