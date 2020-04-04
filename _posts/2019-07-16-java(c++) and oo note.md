@@ -161,9 +161,10 @@ public static void main(String[] args) throws Exception {
 - [Arthas - Java 线上问题定位处理的终极利器](https://blog.csdn.net/u013735734/article/details/102930307)
 - [java异常8：finally关键字的特点及作用](https://blog.csdn.net/yuming226/article/details/83444570)
 - [java中的map集合存放null值总结](https://blog.csdn.net/fenglongmiao/article/details/79561466)
--  线程安全 vs  线程局部安全
--  [Java对象占用内存空间分析及实战](https://www.jianshu.com/p/40faea07d4d2)
--  [java8接口新特性，default关键字，接口可以拥有方法体](https://www.cnblogs.com/deptop/p/9150592.html)
+- 线程安全 vs  线程局部安全
+- [Java对象占用内存空间分析及实战](https://www.jianshu.com/p/40faea07d4d2)
+- [java8接口新特性，default关键字，接口可以拥有方法体](https://www.cnblogs.com/deptop/p/9150592.html)
+-  [java 中变量存储位置的区别](https://blog.csdn.net/yuan22003/article/details/6822221)
 
   
 
