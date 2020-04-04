@@ -33,6 +33,8 @@ the trait bound `{float}: std::ops::AddAssign<{integer}>` is not satisfied， A 
 
 recursion vs iteration vs dynamic programming
 
+## [Profiling (computer programming)](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
+
 ## round trip vs two one way
 
 ## Front-End and Back-End
