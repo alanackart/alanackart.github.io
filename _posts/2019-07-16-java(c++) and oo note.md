@@ -165,6 +165,7 @@ public static void main(String[] args) throws Exception {
 - [Java对象占用内存空间分析及实战](https://www.jianshu.com/p/40faea07d4d2)
 - [java8接口新特性，default关键字，接口可以拥有方法体](https://www.cnblogs.com/deptop/p/9150592.html)
 -  [java 中变量存储位置的区别](https://blog.csdn.net/yuan22003/article/details/6822221)
+-  [详述 @Service 和 @Resource 注解的区别](https://blog.csdn.net/qq_35246620/article/details/59484024)
 
   
 
