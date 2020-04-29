@@ -87,6 +87,7 @@ keywords: 		Linux, Shell
 - `grep -roh 'needle' file | wc -w`
 - grep --exclude=*log* -rn . -e '-DSUN'
 - grep -rw . -e 'fis' | awk '{print $1}' | sort | uniq -u
+- grep -E "word1|word2|word3" file.txt
 
 # awk(需要注awk, nawk处理上的大小限制)
 
