@@ -92,8 +92,16 @@ keywords: 		Linux, Shell
 # awk(需要注awk, nawk处理上的大小限制)
 
 - `awk '{print NR-1, "," length}' inrmbcnex20190306.dat | sort -k2, -k1`   (sort 是否奏效再看一下)
+
 - awk 'length < 10 {print NR-1, ",", length}' 20190308_cnex.dat
+
 - nawk 'c-->0;$0~s{if(b)for(c=b+1;c>1;c--)print r[(NR-c+1)%b];print;c=a}b{r[NR%b]=$0}' b=2 a=4 s="string" file1 #输出匹配行的前a后b行
+
+# cut
+
+  ```bsh
+  echo 'one_two_three_four_five' | cut -d '_' -f2
+  ```
 
 
 # sed
