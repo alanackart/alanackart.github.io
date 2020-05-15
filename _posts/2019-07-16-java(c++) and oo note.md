@@ -168,6 +168,7 @@ public static void main(String[] args) throws Exception {
 - [详述 @Service 和 @Resource 注解的区别](https://blog.csdn.net/qq_35246620/article/details/59484024)
 - [Java JVM虚拟机选项Xms/Xmx/PermSize/MaxPermSize](https://www.cnblogs.com/EasonJim/p/7490114.html)
 -  [HashMap初始化时为什么建议使用HashMap(int initialCapacity)指定集合大小](https://blog.csdn.net/old_land/article/details/92997486)
+-  [SimpleDateFormat线程不安全原因及解决方案](https://www.cnblogs.com/yangyongjie/p/11017409.html)
 
   
 
