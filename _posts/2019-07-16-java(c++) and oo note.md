@@ -6,7 +6,7 @@ description:   	Java知识点和总结
 keywords: 		Java
 ---
 
-Java知识点和总结(java会是一条不归路吗)
+Java知识点和总结 (最后更新于200522)
 
 # Java环境搭建
 
@@ -167,8 +167,9 @@ public static void main(String[] args) throws Exception {
 - [java 中变量存储位置的区别](https://blog.csdn.net/yuan22003/article/details/6822221)
 - [详述 @Service 和 @Resource 注解的区别](https://blog.csdn.net/qq_35246620/article/details/59484024)
 - [Java JVM虚拟机选项Xms/Xmx/PermSize/MaxPermSize](https://www.cnblogs.com/EasonJim/p/7490114.html)
--  [HashMap初始化时为什么建议使用HashMap(int initialCapacity)指定集合大小](https://blog.csdn.net/old_land/article/details/92997486)
--  [SimpleDateFormat线程不安全原因及解决方案](https://www.cnblogs.com/yangyongjie/p/11017409.html)
+- [HashMap初始化时为什么建议使用HashMap(int initialCapacity)指定集合大小](https://blog.csdn.net/old_land/article/details/92997486)
+- [SimpleDateFormat线程不安全原因及解决方案](https://www.cnblogs.com/yangyongjie/p/11017409.html)
+-  [Java中的闭包之争](https://sylvanassun.github.io/2017/07/30/2017-07-30-JavaClosure/)
 
   
 
