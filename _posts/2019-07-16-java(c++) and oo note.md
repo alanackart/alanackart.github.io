@@ -169,7 +169,9 @@ public static void main(String[] args) throws Exception {
 - [Java JVM虚拟机选项Xms/Xmx/PermSize/MaxPermSize](https://www.cnblogs.com/EasonJim/p/7490114.html)
 - [HashMap初始化时为什么建议使用HashMap(int initialCapacity)指定集合大小](https://blog.csdn.net/old_land/article/details/92997486)
 - [SimpleDateFormat线程不安全原因及解决方案](https://www.cnblogs.com/yangyongjie/p/11017409.html)
--  [Java中的闭包之争](https://sylvanassun.github.io/2017/07/30/2017-07-30-JavaClosure/)
+- [Java中的闭包之争](https://sylvanassun.github.io/2017/07/30/2017-07-30-JavaClosure/)
+- [Effective Java Item86 - 謹慎實現Serializable介面](https://www.jyt0532.com/2017/09/29/implement-serializable-judiciously/)
+-  [Effective Java - 序列化](https://www.jyt0532.com/2017/09/27/java-serialization-101/)
 
   
 
