@@ -171,7 +171,8 @@ public static void main(String[] args) throws Exception {
 - [SimpleDateFormat线程不安全原因及解决方案](https://www.cnblogs.com/yangyongjie/p/11017409.html)
 - [Java中的闭包之争](https://sylvanassun.github.io/2017/07/30/2017-07-30-JavaClosure/)
 - [Effective Java Item86 - 謹慎實現Serializable介面](https://www.jyt0532.com/2017/09/29/implement-serializable-judiciously/)
--  [Effective Java - 序列化](https://www.jyt0532.com/2017/09/27/java-serialization-101/)
+- [Effective Java - 序列化](https://www.jyt0532.com/2017/09/27/java-serialization-101/)
+-  [mybatis查询缓存(一、二级缓存useCache, flushCache)](https://www.cnblogs.com/lhy-549/p/10087778.html)
 
   
 
