@@ -172,7 +172,9 @@ public static void main(String[] args) throws Exception {
 - [Java中的闭包之争](https://sylvanassun.github.io/2017/07/30/2017-07-30-JavaClosure/)
 - [Effective Java Item86 - 謹慎實現Serializable介面](https://www.jyt0532.com/2017/09/29/implement-serializable-judiciously/)
 - [Effective Java - 序列化](https://www.jyt0532.com/2017/09/27/java-serialization-101/)
--  [mybatis查询缓存(一、二级缓存useCache, flushCache)](https://www.cnblogs.com/lhy-549/p/10087778.html)
+- [mybatis查询缓存(一、二级缓存useCache, flushCache)](https://www.cnblogs.com/lhy-549/p/10087778.html)
+- [Error querying database. Cause: java.lang.NumberFormatException: For input string: "否"](https://blog.csdn.net/lcl_lq/article/details/51150152)
+- [context:component-scan使用说明](https://blog.csdn.net/vicroad2014/article/details/82115605)
 
   
 
