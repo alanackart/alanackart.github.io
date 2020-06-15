@@ -1,8 +1,8 @@
 ---
 layout:     	post
-title:      	Linux System Knowledge
+title:      	OS Knowledge
 categories: 	Linux
-description:   	Linux服务端开发与管理总结 
+description:    OS Knowledge 
 keywords: 		Linux
 ---
 
@@ -45,6 +45,8 @@ Linux服务器知识及几次生产事故(tragedy)总结
 SMP是Symmetric Multi Processing的简称，意为**对称多处理系统**，内有许多紧耦合多处理器，这种系统最大的特点就是**共享所有资源**。与之相对立的标准是 MPP（Massively Parallel Processing），意为**大规模并行处理系统**，这样的系统是由许多松耦合处理单元组成的，这里指的是处理单元而不是处理器。每个单元内的CPU都有自己私有的资源，如总线、内存、硬盘灯。在每个单元内都有操作系统和管理   数据库   的实例副本。这种结构最大的特点在于**不共享资源。**     **因而线程更适合在SMP机器上进行，而进程则可以跨机器迁移。**
 
 ## Linux的内核模式和用户模式
+
+由用户模式切入到内核模式时，系统调用完成后，只有当调用进程仍为最高优先级才可以继续处理，否则可能由于调度原因而被放入等待队列，而一般的过程调用返回后继续执行。
 
 ## 中断和异常
 
