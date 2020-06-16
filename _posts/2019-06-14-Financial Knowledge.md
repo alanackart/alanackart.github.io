@@ -24,5 +24,6 @@ keywords: Financial, Knowledge
 
 - [扫盲：公募基金与私募基金区别](http://fund.jrj.com.cn/2017/07/05163422701862.shtml)
 - [信托财产破产隔离](https://wiki.mbalib.com/wiki/%E4%BF%A1%E6%89%98%E8%B4%A2%E4%BA%A7%E7%A0%B4%E4%BA%A7%E9%9A%94%E7%A6%BB)
+- [边际效用递减和需求曲线下降](https://blog.csdn.net/lingess/article/details/8152050)
 
 
