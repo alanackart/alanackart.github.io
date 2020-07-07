@@ -56,6 +56,8 @@ SMP是Symmetric Multi Processing的简称，意为**对称多处理系统**，�
 
 - [Linux用户模式和内核模式](https://blog.csdn.net/xjc200808/article/details/47166821)
 
+- [10分钟看懂Docker和K8S](https://zhuanlan.zhihu.com/p/53260098)
+
 - [Solaris File descriptors - Solaris 2.4 through Solaris11 (Doc ID 1005979.1)](https://support.oracle.com/knowledge/Sun%20Microsystems/1005979_1.html) 
 
   > You can also alter the per-process limits either directly from the command line with the limit(1) or ulimit(1) shell commands, or programmatically with setrlimit(2). The actual number of open files that a process can maintain is largely determined by the file APIs used. For 32-bit systems, the the stdio(3S) interfaces are used, the limit is 256 open files. This limit results from the data type used in the FILE structure for the actual file descriptor. An unsigned 8-bit data type, which has a range of values of 0-255, is used. Thus, the maximum number of file descriptors is limited to 256 for 32-bit stdio(3S)-based programs. For 64-bit systems(and 64-bit processes), the stdio(3S) limit is 64 Kbytes."
