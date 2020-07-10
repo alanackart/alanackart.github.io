@@ -1,7 +1,7 @@
 ---
 layout:     		post
 title:      		   Oracle notes & tips 
-categories: 	      SQL
+categories: 	      Database
 description:   		Oracle, PL/SQL 编程笔记与总结
 keywords: 		  Oracle, SQL
 ---
@@ -329,4 +329,5 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
 - [AUTONOMOUS_TRANSACTION Pragma](https://docs.oracle.com/cd/B14117_01/appdev.101/b10807/13_elems002.htm)， A subprogram marked with this pragma can do SQL operations and commit or roll back those operations, without committing or rolling back the data in the main transaction. 
 - [racle中length、lengthb、substr、substrb用法小结, 注意中文编码长度问题](https://blog.csdn.net/zhangbingtao2011/article/details/51384393)
 - [Oracle MERGE](https://www.oracletutorial.com/oracle-basics/oracle-merge/)
+- [【SQL】Oracle分页查询的三种方法](https://blog.csdn.net/oYunTaoLianWu/article/details/9769601) 保持开放的心态，查询减少数据量有很多种做法
 

@@ -1,7 +1,7 @@
 ---
 layout:     		post
 title:      		   MySQL notes & tips 
-categories: 	      SQL
+categories: 	      Database
 description:   		MySQL与ORACLE的区别及其他总结
 keywords: 		  MySQL, SQL
 ---
