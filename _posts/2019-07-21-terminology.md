@@ -6,7 +6,7 @@ description:   		Vocalbulary of IT
 keywords: 		  Terminology, Vocalbulary 
 ---
 
-记录一些专业的英文词汇和解释， 学技术，学英文(单词忘了好多)
+记录一些专业的英文词汇和解释(最后更新于20200808)
 
 # Rust
 
@@ -45,6 +45,8 @@ recursion vs iteration vs dynamic programming
 
 leave or separate oneself from (a group or place).
 
+
+
 # Others
 
 ## Schroedinger's Cat
@@ -60,3 +62,5 @@ Beijing's liaison office in *Hong Kong* says the city is “sliding into the *ab
 # Reference
 
 - [Static/Dynamic vs Strong/Weak](https://stackoverflow.com/questions/2351190/static-dynamic-vs-strong-weak)
+- [Concurrency vs. Parallelism](https://howtodoinjava.com/java/multi-threading/concurrency-vs-parallelism/)
+
