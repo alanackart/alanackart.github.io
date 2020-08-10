@@ -205,6 +205,7 @@ public static void main(String[] args) throws Exception {
 - [还在使用if else写代码？试试 “策略模式” 吧！](https://www.jianshu.com/p/44caa9762c62)
 
 - [How to Avoid Scientific Notation in Double?](https://stackoverflow.com/questions/20813631/how-to-avoid-scientific-notation-in-double)
+- [How to work with wait(), notify() and notifyAll() in Java?](https://howtodoinjava.com/java/multi-threading/wait-notify-and-notifyall-methods/)
 
   
 
