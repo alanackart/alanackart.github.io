@@ -20,6 +20,10 @@
   url: https://blog.csdn.net/My_Jobs/article/details/43451187
   src: tech
 
+- name: Windows and Unix command line equivalents
+  url: https://www.lemoda.net/windows/windows2unix/windows2unix.html
+  src: tech
+
 - name: Normal Distribution(1/2/3 Standard Deviation(s))
   url: https://www.mathsisfun.com/data/standard-normal-distribution.html
   src: math
