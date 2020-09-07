@@ -337,6 +337,8 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
 - [Max Value based on two columns](https://stackoverflow.com/questions/41917925/max-value-based-on-two-columns)  
 
    `MAX(t.MONTH) keep (dense_rank last ORDER BY YEAR nulls first) MONTH` see more  at [Analytic Functions Versus Aggregate Functions](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/AnalyzingData/SQLAnalytics/AnalyticFunctionsVersusAggregateFunctions.htm)
+   
+- [分析oracle的执行计划（explain plan）并对对sql进行优化实践](https://www.cnblogs.com/langtianya/p/5897592.html)  see [a explain plan got from work](https://github.com/alanackart/ORACLE/blob/master/explain%20plan.txt)
 
   
 
