@@ -340,5 +340,7 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
    
 - [分析oracle的执行计划（explain plan）并对对sql进行优化实践](https://www.cnblogs.com/langtianya/p/5897592.html)  see [a explain plan got from work](https://github.com/alanackart/ORACLE/blob/master/explain%20plan.txt)
 
+- [Oracle执行计划详解](https://www.cnblogs.com/jianggc/articles/2029854.html)
+
   
 
