@@ -24,11 +24,13 @@
   url: https://www.lemoda.net/windows/windows2unix/windows2unix.html
   src: tech
 
+- name: Is “sudo apt-get update” mandatory before every package installation?
+  url: https://askubuntu.com/questions/337198/is-sudo-apt-get-update-mandatory-before-every-package-installation
+  src: tech
+
 - name: Normal Distribution(1/2/3 Standard Deviation(s))
   url: https://www.mathsisfun.com/data/standard-normal-distribution.html
   src: math
-
-
   
 - name: Regular Expressions (Regex) Cheat Sheet
   url: https://www.petefreitag.com/cheatsheets/regex/
