@@ -51,4 +51,13 @@ permalink: /links/
 - [{{ link.name }}]({{ link.url }})
   {% endif %}
   {% endfor %}
+  
+# PowerShell 
+
+{% for link in site.data.links %}
+  {% if link.src == 'PowerShell' %}
+
+- [{{ link.name }}]({{ link.url }})
+  {% endif %}
+  {% endfor %}
 
