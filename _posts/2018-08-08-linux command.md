@@ -6,7 +6,7 @@ description:   	frequently used Linux command， cheat sheet
 keywords: 		Linux, Shell
 ---
 
-常用的一些linux命令和操作
+常用的一些linux命令和操作， update@20201014
 
 # shell(file i/o)
 
@@ -96,6 +96,11 @@ keywords: 		Linux, Shell
 - awk 'length < 10 {print NR-1, ",", length}' 20190308_cnex.dat
 
 - nawk 'c-->0;$0~s{if(b)for(c=b+1;c>1;c--)print r[(NR-c+1)%b];print;c=a}b{r[NR%b]=$0}' b=2 a=4 s="string" file1 #输出匹配行的前a后b行
+
+-  cat data.txt  | awk '{print $4}' | awk -F  "m" '$1>20{print$1}'
+
+  > cost is the 11ms
+  > cost is the 211ms
 
 # cut
 
