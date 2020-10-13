@@ -51,3 +51,7 @@
 - name: Golang GOPROXY Setup($GOPROXY & $GO111MODULE)
   url: https://my.oschina.net/u/3305368/blog/3044169
   src: chinanet
+  
+- name: The Windows PowerShell ISE
+  url: https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise?view=powershell-7
+  src: PowerShell
