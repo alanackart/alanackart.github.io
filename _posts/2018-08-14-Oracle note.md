@@ -324,6 +324,8 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
 
 **触发器不能再查询列本身**， 这个网上一查一大堆。 前辈给我说过， 这是因为ORACLE不好处理行是更新前的还是更新后的， **确切的原因以后有空再查**。 其实我当时做的是当表的一行发生更新时把这一行插入到另一张表中，而我当时用的是`insert into table2 select  *  into row from table1 where key = :new.key`就报错了， 前辈教我的是全部用`:new.column1, :new.column2…来做，自己还是欠一些思考啊。`
 
+# oracle 多字段order by 要记得分别写上asc/desc
+
 # Readlist
 
 - [AUTONOMOUS_TRANSACTION Pragma](https://docs.oracle.com/cd/B14117_01/appdev.101/b10807/13_elems002.htm)， A subprogram marked with this pragma can do SQL operations and commit or roll back those operations, without committing or rolling back the data in the main transaction. 
