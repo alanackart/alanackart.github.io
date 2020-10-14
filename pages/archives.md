@@ -53,9 +53,6 @@ permalink: /archives/
 	{% assign month = post.date | date: '%Y%m' %}
     {% assign next_month = post.next.date | date: '%Y%m' %}
     {% if year != next_year %}
-			{% if this_year != 1 %}
-				</ol>
-			{% endif %}
 			<h3>{{ post.date | date: '%Y' }} ({{ count_years[i] }})</h3>
 			<h4>{{ post.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
 			{% if this_year != 0 %}
