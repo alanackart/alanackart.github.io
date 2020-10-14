@@ -53,31 +53,29 @@ permalink: /archives/
 	{% assign month = post.date | date: '%Y%m' %}
     {% assign next_month = post.next.date | date: '%Y%m' %}
     {% if year != next_year %}
-        {% if this_year != 1 %}
-            </ol>
-        {% endif %}
-		{% if this_month != 1 %}
-            </ol>
-        {% endif %}
-		<h3>{{ post.date | date: '%Y' }} ({{ count_years[i] }})</h3>
-		<h4>{{ post.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
-        {% if this_year != 0 %}
-            {% assign this_year = 0 %}
-        {% endif %}
-		{% if this_year != 0 %}
-			{% assign this_year = 0 %}
-		{% endif %}
-        <ol class="posts-list">
-        {% assign i = i | plus: 1 %}
+			{% if this_year != 1 %}
+				</ol>
+			{% endif %}
+			<h3>{{ post.date | date: '%Y' }} ({{ count_years[i] }})</h3>
+			<h4>{{ post.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
+			{% if this_year != 0 %}
+				{% assign this_year = 0 %}
+			{% endif %}
+			<ol class="posts-list">
+			{% assign i = i | plus: 1 %}
+			{% assign j = j | plus: 1 %}
+			<li class="posts-list-item">
+			<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
+			<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+			</li>
+			</ol>
+		{% else %}
+			{% if month != next_month%}
+				<h4>{{ post.next.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
+				{% assign j = j | plus: 1 %}
+			{% endif %}
     {% endif %}
-	<li class="posts-list-item">
-	<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
-	<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% if year == next_year and month != next_month%}
-		{% assign j = j | plus: 1 %}
-		<h4>{{ post.next.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
-	{% endif %}
+
 {% endfor %}
-</ol>
+
 </section>
