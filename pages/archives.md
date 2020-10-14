@@ -69,15 +69,15 @@ permalink: /archives/
 		{% endif %}
         <ol class="posts-list">
         {% assign i = i | plus: 1 %}
-		{% if month != next_month %}
-			{% assign j = j | plus: 1 %}
-			<h4>{{ post.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
-		{% endif %}
     {% endif %}
 	<li class="posts-list-item">
 	<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
 	<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 	</li>
+	{% if year == next_year and month != next_month%}
+		{% assign j = j | plus: 1 %}
+		<h4>{{ post.next.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
+	{% endif %}
 {% endfor %}
 </ol>
 </section>
