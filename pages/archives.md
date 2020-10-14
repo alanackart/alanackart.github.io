@@ -68,10 +68,13 @@ permalink: /archives/
 			<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
 			<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 			</li>
-			</ol>
 		{% else %}
+			<li class="posts-list-item">
+			<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
+			<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+			</li>
 			{% if month != next_month%}
-				<h4>{{ post.next.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
+				<h4>{{ post.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
 				{% assign j = j | plus: 1 %}
 			{% endif %}
     {% endif %}
