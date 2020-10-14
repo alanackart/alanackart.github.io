@@ -68,6 +68,7 @@ permalink: /archives/
 			<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
 			<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 			</li>
+			</ol>
 		{% else %}
 			{% if month != next_month%}
 			<h4>{{ post.date | date: '%Y%m' }} ({{ count_months[j] }})</h4>
@@ -78,6 +79,7 @@ permalink: /archives/
 			<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
 			<a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 			</li>
+			</ol>
     {% endif %}
 
 {% endfor %}
