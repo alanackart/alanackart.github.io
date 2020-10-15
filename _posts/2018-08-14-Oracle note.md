@@ -6,7 +6,7 @@ description:   		Oracle, PL/SQL 编程笔记与总结
 keywords: 		  Oracle, SQL
 ---
 
-oracle 数据库及其相关支持是真的强大(last update: 20200907)
+oracle 数据库及其相关支持是真的强大update@ 20201015
 
 # oracle basic command & functions
 
