@@ -6,7 +6,7 @@ description:   	frequently used Linux command， cheat sheet
 keywords: 		Linux, Shell
 ---
 
-常用的一些linux命令和操作， update@20201014
+常用的一些linux命令和操作， update@20201016
 
 # shell(file i/o)
 
@@ -79,6 +79,10 @@ keywords: 		Linux, Shell
   可能是这次VMWARE的磁盘使用了单个文件的模式， 磁盘大小扩展后直接使用GParted进行了下resize就OK了
 
 - `tree` to print the directory tree in terminal
+
+- for f in *.jar; do file "$f"; done
+
+- for f in *902.jar; do mv -v "$f" "$(echo "$f" | sed s/902/904/)"; done
 
 # grep 
 
