@@ -16,4 +16,5 @@ echo $day
 $filename = -join($day, "-Diary.md")
 echo $filename
 Copy-Item $latest_diary  $filename
-(Get-Content $filename).replace($latest_day, $day) | Set-Content $filename
+(Get-Content $filename).replace($latest_day, $day) | Set-Content $filename 
+(Get-Content $filename -Raw).Replace("`r`n","`n") | Set-Content $filename -Force
