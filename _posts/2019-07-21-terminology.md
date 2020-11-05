@@ -33,6 +33,10 @@ the trait bound `{float}: std::ops::AddAssign<{integer}>` is not satisfied， A 
 
 recursion vs iteration vs dynamic programming
 
+# CUDA
+
+**CUDA** (Compute Unified Device Architecture) is a [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) platform and [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) (API) model created by [Nvidia](https://en.wikipedia.org/wiki/Nvidia).[[1\]](https://en.wikipedia.org/wiki/CUDA#cite_note-1) It allows [software developers](https://en.wikipedia.org/wiki/Software_developer) and [software engineers](https://en.wikipedia.org/wiki/Software_engineer) to use a CUDA-enabled [graphics processing unit](https://en.wikipedia.org/wiki/Graphics_processing_unit) (GPU) for general purpose processing – an approach termed [GPGPU](https://en.wikipedia.org/wiki/GPGPU) (General-Purpose computing on Graphics Processing Units). The CUDA platform is a software layer that gives direct access to the GPU's virtual [instruction set](https://en.wikipedia.org/wiki/Instruction_set) and parallel computational elements, for the execution of [compute kernels](https://en.wikipedia.org/wiki/Compute_kernel).[[2\]](https://en.wikipedia.org/wiki/CUDA#cite_note-CUDA_intro_-_TomsHardware-2)
+
 ## [Profiling (computer programming)](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
 
 ## round trip vs two one way
