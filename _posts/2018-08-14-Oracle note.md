@@ -6,7 +6,7 @@ description:   		Oracle, PL/SQL 编程笔记与总结
 keywords: 		  Oracle, SQL
 ---
 
-oracle 数据库及其相关支持是真的强大update@ 20201015
+oracle 数据库及其相关支持是真的强大update@ 20201103
 
 # oracle basic command & functions
 
@@ -344,5 +344,9 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
 
 - [Oracle执行计划详解](https://www.cnblogs.com/jianggc/articles/2029854.html)
 
+- [Not equal <> != operator on NULL](https://stackoverflow.com/questions/5658457/not-equal-operator-on-null)
+
   
+  
+- 
 
