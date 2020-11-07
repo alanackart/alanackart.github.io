@@ -87,4 +87,7 @@ Ubuntu安装后大约会占6G的空间， 60G磁盘就会占用到10%， 好伤�
 ReadList
 
 - [excel 打开csv中，数值类型超15位后变0](https://blog.csdn.net/q944324153/article/details/82994999)
+- [Is there anyway to get TortoiseSVN to leave EOL (line endings) as is?](https://stackoverflow.com/questions/11587806/is-there-anyway-to-get-tortoisesvn-to-leave-eol-line-endings-as-is)
+
+
 
