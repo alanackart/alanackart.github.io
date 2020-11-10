@@ -6,7 +6,7 @@ description:   		Vocalbulary of IT
 keywords: 		  Terminology, Vocalbulary 
 ---
 
-记录一些专业的英文词汇和解释(最后更新于20200808)
+记录一些专业的英文词汇和解释(最后更新于20201110)
 
 # Rust
 
@@ -32,6 +32,8 @@ the trait bound `{float}: std::ops::AddAssign<{integer}>` is not satisfied， A 
 ## Recursion
 
 recursion vs iteration vs dynamic programming
+
+# ephemeral vs persistent storage
 
 # CUDA
 
