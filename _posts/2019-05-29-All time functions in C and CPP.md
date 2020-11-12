@@ -4,6 +4,7 @@ title:      	C time funtions
 categories: 	C/CPP
 description:   	C time funtions & it's use
 keywords: 		C/CPP, time
+topmost: true
 ---
 
 曾经在C的时间处理方面卡了较久， 现在特地来做个总结

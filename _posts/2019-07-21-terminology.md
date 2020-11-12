@@ -4,7 +4,8 @@ title:      		Terminology of Computer Science
 categories: 	      General
 description:   		Vocalbulary of IT
 keywords: 		  Terminology, Vocalbulary
-topmost: true 
+topmost: true
+topmost: true
 ---
 
 记录一些专业的英文词汇和解释(最后更新于20201112)

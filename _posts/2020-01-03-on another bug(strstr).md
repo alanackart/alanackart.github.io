@@ -4,6 +4,7 @@ title:      	Yet Another Bug（strstr）
 categories: 	C/CPP
 description:   	记一次bug
 keywords: 		C/CPP
+topmost: true
 ---
 
 2020年的第一篇博文， 关于一个strstr的bug

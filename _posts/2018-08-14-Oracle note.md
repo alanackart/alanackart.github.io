@@ -4,6 +4,7 @@ title:      		   Oracle notes & tips
 categories: 	      Database
 description:   		Oracle, PL/SQL 编程笔记与总结
 keywords: 		  Oracle, SQL
+topmost: true
 ---
 
 oracle 数据库及其相关支持是真的强大update@ 20201111

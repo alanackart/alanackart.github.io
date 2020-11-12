@@ -4,6 +4,7 @@ title:      	Python Notes and Tips
 categories: 	Python
 description:   	Python知识点和总结
 keywords: 		Python
+topmost: true
 ---
 
 Python知识点和总结

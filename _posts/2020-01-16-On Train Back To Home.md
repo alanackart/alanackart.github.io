@@ -4,6 +4,7 @@ title:      	On Train Back To Home
 categories: 	Life
 description:   	《肖申克的救赎》观后感
 keywords: 		肖申克的救赎
+topmost: true
 ---
 
 《肖申克的救赎》观后感， 写于2020春节回家的高铁上

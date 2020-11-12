@@ -4,6 +4,7 @@ title:      		   Golang Notes & Tips
 categories: 	      Golang
 description:   		Golang学习总结
 keywords: 		  Golang, go
+topmost: true
 ---
 
 精通x语言😂，先来看看Go吧

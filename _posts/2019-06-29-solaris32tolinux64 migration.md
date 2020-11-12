@@ -4,6 +4,7 @@ title:      	Solaris to Linux migration
 categories: 	Linux
 description:   	服务端程序32位Solaris迁移到64位Linux的总结 
 keywords: 		Linux， Migration
+topmost: true
 ---
 迟到的程序移植总结
 

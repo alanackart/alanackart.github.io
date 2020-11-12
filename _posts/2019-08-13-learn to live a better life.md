@@ -4,6 +4,7 @@ title:      	Learn to Live A Better Life
 categories: 	Life
 description:   	学会更好的生活
 keywords: 		Life
+topmost: true
 ---
 
 生活太累， 那就对自己好点， 对自己的生命好点

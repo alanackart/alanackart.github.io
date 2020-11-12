@@ -4,6 +4,8 @@ title:      	Words on 4th Week of October
 categories: 	Life
 description:   	10月的随笔
 keywords: 		Life
+topmost: true
+topmost: true
 ---
 
 不要高估了自己的自制力，额， 好水的一篇随笔

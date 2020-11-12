@@ -4,6 +4,7 @@ title:      	Life Under the  Coronavirus
 categories: 	Life
 description:   	新冠肺炎
 keywords: 		新冠肺炎
+topmost: true
 ---
 
 由疫情带来的一些人生思考：当潮水退去时，我们才会发现谁在裸泳

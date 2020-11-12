@@ -4,6 +4,7 @@ title:      	Searching Bug
 categories: 	Life
 description:   	总结
 keywords: 		总结
+topmost: true
 ---
 
 在事故中总结经验，成长（最后更新于20200724）

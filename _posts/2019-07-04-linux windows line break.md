@@ -4,6 +4,7 @@ title:      	Line Breaks in Unix & Windows
 categories: 	Linux
 description:   	Linux, Windows 换行 
 keywords: 		Linux， Line
+topmost: true
 ---
 \r, \n,CR, LF, ^M分别是什么东东
 

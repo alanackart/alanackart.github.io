@@ -4,6 +4,7 @@ title:      		   MySQL notes & tips
 categories: 	      Database
 description:   		MySQL与ORACLE的区别及其他总结
 keywords: 		  MySQL, SQL
+topmost: true
 ---
 
 MySQL从删除到跑路

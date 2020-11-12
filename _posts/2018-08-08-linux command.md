@@ -118,6 +118,7 @@ topmost: true
 
 - sed "s/foo/bar/g" testfile > testchangedfile
 - sed "s/foo/bar/2g" inputfile > outputfile [(http://write.flossmanuals.net/linea-de-comando/sed/)]()
+- ls -I "*Diary.md" -I "template.md" -I "*.ps1" | xargs -d '\n' sed -i '7i\topmost: true'    #insert string at line 7
 
 
 # vim 

@@ -4,6 +4,7 @@ title:      	Queue implementation in C
 categories: 	C/CPP
 description:   	Queue implementation in C
 keywords: 		C/CPP, Queue, static
+topmost: true
 ---
 Talk is Cheap , Show Me the Code, 队列的C实现
 

@@ -4,6 +4,7 @@ title:      	Linux C Socket sendfile
 categories: 	C/CPP
 description:   	Linux C Socket sendfile
 keywords: 		C/CPP, Socket, sendfile
+topmost: true
 ---
 sendfile比send快？
 

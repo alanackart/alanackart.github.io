@@ -4,6 +4,7 @@ title:      		Learn of Nginx(Web Server)
 categories: 	    Infrastructure
 description:   		Learn of Nginx(Web Server)
 keywords: 		  infrastructure, Nginx, Server
+topmost: true
 ---
 
 记录自己在学习Nginx设计架构时的一些心得和感悟

@@ -4,6 +4,8 @@ title:      	Heart-Searching
 categories: 	Life
 description:   	检讨
 keywords: 		检讨
+topmost: true
+topmost: true
 ---
 
 直面内心：干大事而惜身，见小利而忘命(最后更新于20200501)

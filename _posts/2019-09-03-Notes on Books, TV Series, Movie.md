@@ -4,6 +4,7 @@ title:      	Books, TV, Movie
 categories: 	Life
 description:   	学会更好的生活
 keywords: 		Life
+topmost: true
 ---
 
 从8月份开始就有些颓废了，最近看了很多电视剧和电影，随便写点
