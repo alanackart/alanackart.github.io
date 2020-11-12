@@ -3,10 +3,11 @@ layout:     		post
 title:      		Terminology of Computer Science 
 categories: 	      General
 description:   		Vocalbulary of IT
-keywords: 		  Terminology, Vocalbulary 
+keywords: 		  Terminology, Vocalbulary
+topmost: true 
 ---
 
-记录一些专业的英文词汇和解释(最后更新于20201110)
+记录一些专业的英文词汇和解释(最后更新于20201112)
 
 # Rust
 
@@ -69,4 +70,5 @@ Beijing's liaison office in *Hong Kong* says the city is “sliding into the *ab
 
 - [Static/Dynamic vs Strong/Weak](https://stackoverflow.com/questions/2351190/static-dynamic-vs-strong-weak)
 - [Concurrency vs. Parallelism](https://howtodoinjava.com/java/multi-threading/concurrency-vs-parallelism/)
+- [Examples of Antonyms, Synonyms, and Homonyms for Kids](https://examples.yourdictionary.com/examples-of-antonyms-synonyms-and-homonyms-for-kids.html)
 

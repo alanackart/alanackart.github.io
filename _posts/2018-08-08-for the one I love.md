@@ -4,6 +4,7 @@ title:      	For the One I Love
 categories: 	Life
 description:   	写给自己的话
 keywords: 		Life, Love
+topmost: true
 ---
 
 遇到她是我今生最大的财富
