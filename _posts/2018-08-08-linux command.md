@@ -4,9 +4,10 @@ title:      	Linux command
 categories: 	Linux
 description:   	frequently used Linux command， cheat sheet
 keywords: 		Linux, Shell
+topmost: true
 ---
 
-常用的一些linux命令和操作， update@20201016
+常用的一些linux命令和操作， update@20201113
 
 # shell(file i/o)
 
@@ -335,4 +336,6 @@ keywords: 		Linux, Shell
 # Further Reading
 
 - [What's the difference between nohup and ampersand](https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand)
+- [5 Ways to Empty or Delete a Large File Content in Linux](https://www.tecmint.com/empty-delete-file-content-linux/)
+- [Grep - Input File is also the output file](https://stackoverflow.com/questions/41062724/grep-input-file-is-also-the-output-file)
 
