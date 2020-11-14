@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	The Shawshank Redemption Review
-categories: 	Life
+categories: 	Movie
 description:   	《肖申克的救赎》观后感
 keywords: 		肖申克的救赎， 电影， The Shawshank Redemption， movie, review
 topmost: true
