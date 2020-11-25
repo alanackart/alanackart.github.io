@@ -20,7 +20,7 @@ Hey，我是**FangChao**，一枚程序猿。
 
 > 在山的那边，是海吗？
 
-也许我已经跨越了不少的山从大西北求学来到上海，但是正如我还没真正见过一望无际的汪洋大海一样，我的理想也从未实现， 没有找到对的路， 没有找到对的人。前路漫漫，过去的经历不是负担还是一种荣耀，我会继续勇敢的走下去！
+也许我已经跨越了不少的山从大西北求学来到上海， 但哪怕是最初一丝丝的梦想也从未实现。前路漫漫，超越昨天的自己，但求死而无憾！
 
 ## Contacts
 
@@ -38,3 +38,10 @@ Hey，我是**FangChao**，一枚程序猿。
 {% endfor %}
 </div>
 {% endfor %}
+
+## Most Loved Music
+
+{% for website in site.data.music %}
+
+* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
+  {% endfor %}
