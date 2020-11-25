@@ -7,7 +7,7 @@ keywords: 		Linux, Shell
 topmost: true
 ---
 
-常用的一些linux命令和操作， update@20201113
+常用的一些linux命令和操作， update@20201124
 
 # shell(file i/o)
 
@@ -339,4 +339,5 @@ topmost: true
 - [What's the difference between nohup and ampersand](https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand)
 - [5 Ways to Empty or Delete a Large File Content in Linux](https://www.tecmint.com/empty-delete-file-content-linux/)
 - [Grep - Input File is also the output file](https://stackoverflow.com/questions/41062724/grep-input-file-is-also-the-output-file)
+- [tr Command](https://www.ibm.com/support/knowledgecenter/ssw_aix_72/t_commands/tr.html)
 
