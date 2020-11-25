@@ -10,5 +10,5 @@ topmost: true
 
 # search
 
-[Bloom Filter/Inverted Index](大数据与算法系列之海量数据查找算法)
+- [Bloom Filter/Inverted Index](大数据与算法系列之海量数据查找算法)
 
