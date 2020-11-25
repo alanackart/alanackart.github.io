@@ -43,5 +43,5 @@ Hey，我是**FangChao**，一枚程序猿。
 
 {% for website in site.data.music %}
 
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
+* {{ website.sitename }}：[{{ website.name }}]({{ website.url }})
   {% endfor %}
