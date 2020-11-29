@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Favorite Site
-categories: [cate1, cate2]
+categories: [website]
 description: some word here
 keywords: keyword1, keyword2
 ---
