@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Favorite Site
+title: MySQL
 categories: [MySQL]
 description: some word here
 keywords: keyword1, keyword2
