@@ -39,9 +39,10 @@ Hi，我是**FangChao**，一枚程序猿。
 </div>
 {% endfor %}
 
-## Most Loved Music
+## Most Loved 
 
-{% for website in site.data.music %}
+{% for website in site.data.loved %}
 
 * {{ website.sitename }}：[{{ website.name }}]({{ website.url }})
   {% endfor %}
+
