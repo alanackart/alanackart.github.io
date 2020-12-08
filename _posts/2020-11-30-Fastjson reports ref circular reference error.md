@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	Fastjson reports $ref" circular reference error
+title:      	Fastjson reports "$ref" circular reference error
 categories: 	Fastjson
 description:   	Java知识点和总结
 keywords: 		Java, Fastjson
