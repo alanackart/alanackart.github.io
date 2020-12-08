@@ -2,8 +2,8 @@
 layout: wiki
 title: MySQL
 categories: [MySQL]
-description: some word here
-keywords: keyword1, keyword2
+description: MySQL
+keywords: MySQL
 ---
 
 记录使用MySQL时会遇到的一些问题

@@ -2,8 +2,8 @@
 layout: wiki
 title: Favorite Site
 categories: [website]
-description: some word here
-keywords: keyword1, keyword2
+description: website
+keywords: website
 ---
 
 收藏一些技术博客
