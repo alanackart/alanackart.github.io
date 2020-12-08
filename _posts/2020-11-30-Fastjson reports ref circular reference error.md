@@ -7,7 +7,7 @@ keywords: 		Java, Fastjson
 topmost: true
 ---
 
-Fastjson reports $ref" circular reference error 发散
+Fastjson reports "$ref" circular reference error 发散
 
 # 故事要从bug开始
 
