@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	OS Knowledge
-categories: 	Linux
+categories: 	[Linux, Bug]
 description:    OS Knowledge 
 keywords: 		Linux
 topmost: true

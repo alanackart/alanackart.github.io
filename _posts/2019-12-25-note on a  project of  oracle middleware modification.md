@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	A Project of Adding Heartbeat to DB Middleware
-categories: 	C/CPP
+categories: 	[C/CPP, Bug]
 description:   	C/CPP 线程
 keywords: 		C/CPP, 工程/project
 topmost: true
