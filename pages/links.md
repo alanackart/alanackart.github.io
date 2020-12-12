@@ -43,6 +43,15 @@ permalink: /links/
   {% endif %}
   {% endfor %}
 
+# English
+
+{% for link in site.data.links %}
+  {% if link.src == 'English' %}
+
+* [{{ link.name }}]({{ link.url }})
+  {% endif %}
+  {% endfor %}
+
 # Tech 
 
 {% for link in site.data.links %}
