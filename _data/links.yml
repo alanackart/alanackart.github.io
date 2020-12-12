@@ -1,6 +1,6 @@
 #new src should be configured at pages/links.md first, otherwise the 
 #links will not be seen
-- name: sixthtone
+- name: SixthTone
   url: http://www.sixthtone.com/
   src: life
 
@@ -14,7 +14,7 @@
 
 - name: Computer Keyboard Key Explanations
   url: https://www.computerhope.com/keys.htm
-  src: tech
+  src: English
  
 - name: GDB Tutorial(Compile & Debug)
   url: https://web.eecs.umich.edu/~sugih/pointers/summary.html

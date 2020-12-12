@@ -9,4 +9,4 @@ topmost: false
 
 Content here
 
-do not use multiple space in headers like description
+avoid using hyphen(-) in header like description
