@@ -1,10 +1,10 @@
 ---
 layout:     	post
-title:      	The ones we love are never gone, they live within our hearts.
+title:      	The ones we love are never gone
 categories: 	[Life, Death]
 description:   	-
 keywords: 		Life, Death
-topmost: false
+topmost: 		false
 ---
 
 Record the death of  people who are close to me (chronological ) update@20201212, in order of time ,  some are too far to remember the exact time
