@@ -1,9 +1,9 @@
 ---
 layout:     	post
 title:      	Multitenancy Bug
-categories: 	Multitenancy
+categories: 	[Multitenancy, Bug]
 description:   	Multitenancy
-keywords: 		Bug
+keywords: 		Bug, Multitenancy
 topmost: true
 ---
 
@@ -19,7 +19,7 @@ topmost: true
 
 - 从技术上来谈， 关键代码（此次事故里是设置数据库环境的代码）应当尽可能的放置于代码的最外层，便于检查，关键性的代码如果没有必要，应当删除， 尤其是自己根据调用者做的设置可能是不准确的。
 - 技术上做好预防，在数据操作时做好必要的权限校验，守护好最后的关卡！
-- 从责任来谈， 当在日志中发现异常情况时，即使觉得不是自己的责任，也应当驱动其他关联方去排查，否则真的出了事故，自己或多或少都难逃干系！
+- 从责任来谈， 当在日志中发现异常情况时，即使觉得不是自己的责任，也应当驱动其他关联方去排查，否则真的出了事故，自己或多或少都难逃干系，甚至有可能被直接拉来背锅！
 
 # Readlist
 
