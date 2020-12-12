@@ -166,7 +166,7 @@ h1#sub-title {
 .site-footer {
     position: relative;
     margin-top: 40px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
     font-size: 12px;
     line-height: 1.5;
