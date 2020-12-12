@@ -1,11 +1,12 @@
 ---
 layout:     	post
-title:      	The ones we love are never gone; they live within our hearts.
+title:      	The ones we love are never gone, they live within our hearts.
 categories: 	[Life, Death]
 description:   	-
 keywords: 		Life, Death
 topmost: false
 ---
+
 Record the death of  people who are close to me (chronological ) update@20201212, in order of time ,  some are too far to remember the exact time
 - approximately 2004, gao yuheng,  classmate,  suicide by [Pesticide poisoning](https://en.wikipedia.org/wiki/Pesticide_poisoning) , left-behind children
 - approximately 2004 chen xxx, classmate, accident [Drowning](https://en.wikipedia.org/wiki/Drowning) of crossing river
