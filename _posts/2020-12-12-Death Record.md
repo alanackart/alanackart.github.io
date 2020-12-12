@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	The ones we love are never gone
+title:      	The ones we love are never gone, they live within our hearts.
 categories: 	[Life, Death]
 description:   	Diary
 keywords: 		Diary，日记
