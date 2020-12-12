@@ -1,9 +1,9 @@
 ---
 layout:     	post
-title:      	The ones we love are never gone
-categories: 	[Life, Death]
-description:   	-
-keywords: 		Life, Death
+title:      	Diary
+categories: 	Diary
+description:   	Diary
+keywords: 		Diary，日记 
 ---
 
 Record the death of  people who are close to me (chronological ) update@20201212, in order of time,  some are too far to remember the exact time
