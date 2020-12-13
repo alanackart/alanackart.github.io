@@ -38,6 +38,9 @@
 - name: A Histogram is NOT a Bar Chart
   url: https://www.forbes.com/sites/naomirobbins/2012/01/04/a-histogram-is-not-a-bar-chart/?sh=fa7cadf6d775
   src: math  
+- name: Cartesian product
+  url: https://en.wikipedia.org/wiki/Cartesian_product
+  src: math  
 - name: Regular Expressions (Regex) Cheat Sheet
   url: https://www.petefreitag.com/cheatsheets/regex/
   src: tech
