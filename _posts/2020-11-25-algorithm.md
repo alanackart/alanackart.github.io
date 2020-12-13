@@ -15,6 +15,7 @@ topmost: true
 # problem
 
 - [Knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem)
+- [数组中最小的 k 个数：Top K 问题的两种经典解法](https://www.cxyxiaowu.com/10211.html)
 
 # Read list:
 
