@@ -16,3 +16,7 @@ topmost: true
 
 - [Knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem)
 
+# Read list:
+
+- [List of terms relating to algorithms and data structures](https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures)
+
