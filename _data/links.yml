@@ -36,8 +36,14 @@
   url: https://www.mathsisfun.com/data/standard-normal-distribution.html
   src: math
 - name: A Histogram is NOT a Bar Chart
-  url: https://www.forbes.com/sites/naomirobbins/2012/01/04/a-histogram-is-not-a-bar-chart/?sh=fa7cadf6d775
+  url: https://www.forbes.com/sites/naomirobbins/2012/01/04/a-histogram-is-not-a-bar-chart/
   src: math  
+- name: Pi
+  url: https://en.wikipedia.org/wiki/Pi
+  src: math   
+- name: Wallis_product
+  url: https://en.wikipedia.org/wiki/Wallis_product
+  src: math    
 - name: Cartesian product
   url: https://en.wikipedia.org/wiki/Cartesian_product
   src: math  
