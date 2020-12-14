@@ -10,4 +10,5 @@ keywords: website
 
 - [程序那些事](http://www.flydean.com/)
 - [A Humble Programmer](https://hezhigang.github.io/)
+- [labuladong的算法小抄](https://labuladong.gitbook.io/algo/)
 
