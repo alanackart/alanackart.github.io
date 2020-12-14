@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	First Time Interviewing A Candidate
-categories: 	[interviewer, AVL Tree]
+categories: 	[Interviewer, AVL Tree]
 description:   	interviewer
 keywords: 		interviewer
 topmost: true
