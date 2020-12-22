@@ -6,9 +6,12 @@ description: website
 keywords: website
 ---
 
-收藏一些技术博客
+收藏一些技术博客/链接
 
 - [程序那些事](http://www.flydean.com/)
 - [A Humble Programmer](https://hezhigang.github.io/)
 - [labuladong的算法小抄](https://labuladong.gitbook.io/algo/)
+- [Software bug](https://en.wikipedia.org/wiki/Software_bug)
+- [Software regression](https://en.wikipedia.org/wiki/Software_regression)
+- [Ternary operation](https://en.wikipedia.org/wiki/Ternary_operation)
 
