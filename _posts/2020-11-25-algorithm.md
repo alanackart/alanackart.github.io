@@ -1,12 +1,12 @@
 ---
 layout:     	post
 title:      	Algorithm
-categories: 	Algorithm
+categories: 	[Algorithm, TODO]
 description:   	Algorithm
 keywords: 		Algorithm
 topmost: true
 ---
-  环保的算法，多快好省, update@20201204
+  环保的算法，多快好省, update@20201225
 
 # search
 
