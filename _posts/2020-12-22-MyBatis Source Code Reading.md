@@ -20,7 +20,7 @@ In base MyBatis, the `SqlSessionFactory` is built using `SqlSessionFactoryBuilde
 ```java
     reader = Resources.getResourceAsReader("config/Configure.xml");
     sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-
+//openSession()需要后动提交, autocommit是false
     SqlSession session = sqlSessionFactory.openSession();
     IUser userMapper = session.getMapper(IUser.class);
     System.out.println("Test insert start...");
@@ -30,6 +30,8 @@ In base MyBatis, the `SqlSessionFactory` is built using `SqlSessionFactoryBuilde
     userMapper.insertUser(user);
     session.commit();
 ```
+
+## SqlSessionTemplate
 
 ## 为什么Mapper没有实现类
 
