@@ -15,4 +15,5 @@ keywords: website
 - [Software regression](https://en.wikipedia.org/wiki/Software_regression)
 - [Ternary operation](https://en.wikipedia.org/wiki/Ternary_operation)
 - [SimpleDateFormat is slow](https://stackoverflow.com/questions/22098904/how-to-improve-performance-of-simpledateformat-wrapped-in-threadlocal)
+- [票据市场知多少](https://crm.htsc.com.cn/doc/2019/10730101/b79559b4-5dba-442b-a58b-e9f7f8d93af9.pdf)
 
