@@ -1,8 +1,8 @@
 ---
 layout:     	post
-title:      	A Bug of A Year Back（sysdate）
+title:      	A Bug of A Year Ago（sysdate）
 categories: 	[Bug]
-description:   	A Bug of A Year Back（sysdate）
+description:   	A Bug of A Year Ago（sysdate）
 keywords: 		Bug
 topmost: true
 
