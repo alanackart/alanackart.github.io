@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	Yet Another Bug（strstr）
-categories: 	C/CPP
+categories: 	[C/CPP, Bug]
 description:   	记一次bug
 keywords: 		C/CPP
 topmost: true
@@ -11,9 +11,7 @@ topmost: true
 
 # 背景
 
-今天下游的小姐姐来找我们说他们的一家客户本来没有中债估值的权限，但是我们还是给客户发了估值，导致年结
-
-账目错误。
+今天下游的小姐姐来找我们说他们的一家客户本来没有中债估值的权限，但是我们还是给客户发了估值，导致年结账目错误。
 
 # 查问题的过程
 
