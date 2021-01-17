@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: A Standard Answer To The Incident Of "Secretary Lu": A Question Of Principle, No Flexibility
+title: A Standard Answer To The Incident Of Secretary Lu, A Question Of Principle, No Flexibility
 categories: [Society]
 description: Society, 中纪委评“卢书记”事件给出标准答案：原则问题，没得变通
 keywords: Society, 中纪委评“卢书记”事件给出标准答案：原则问题，没得变通
