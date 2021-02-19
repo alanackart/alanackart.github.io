@@ -20,4 +20,5 @@ topmost: true
 # Read list:
 
 - [List of terms relating to algorithms and data structures](https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures)
+- [启发式算法, 蚁群算法（Ant Colony Algorithm, ACA）由Marco Dorigo于1992年在他的博士论文中首次提出，该算法模拟了自然界中蚂蚁的觅食行为。](https://www.guofei.site/2017/05/25/ACA.html)
 
