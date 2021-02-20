@@ -334,6 +334,15 @@ topmost: true
 
 - 使用`bash -x`或`set -x`进行，详情阅读[如何调试BASH脚本](https://coolshell.cn/articles/1379.html)
 
+# 字符串拼接
+
+```sh
+a='Hello'
+b='World'
+c="${a} ${b}"
+echo "${c}"
+```
+
 # Further Reading
 
 - [What's the difference between nohup and ampersand](https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand)
