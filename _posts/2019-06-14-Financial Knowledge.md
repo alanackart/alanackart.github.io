@@ -57,5 +57,6 @@ topmost: true
 - [信托财产破产隔离](https://wiki.mbalib.com/wiki/%E4%BF%A1%E6%89%98%E8%B4%A2%E4%BA%A7%E7%A0%B4%E4%BA%A7%E9%9A%94%E7%A6%BB)
 - [边际效用递减和需求曲线下降](https://blog.csdn.net/lingess/article/details/8152050)
 - [一文看懂估值工具：市销率/市净率/市盈率/市现率](https://www.sohu.com/a/330196069_237492)
+- 三元悖论（Mundellian Trilemma），也称三难选择(The Impossible Trinity)，它是由美国经济学家保罗·克鲁格曼（一说蒙代尔）就开放经济下的政策选择问题所提出的，其含义是：在开放经济条件下，本国货币政策的独立性、汇率的稳定性、资本的完全流动性不能同时实现，最多只能同时满足两个目标，而放弃另外一个目标
 
 
