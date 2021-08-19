@@ -7,7 +7,7 @@ keywords: 		C/CPP, time
 topmost: true
 ---
 
-曾经在C的时间处理方面卡了较久， 现在特地来做个总结
+曾经在C的时间处理方面卡了较久， 现在特地来做个总结, update@20210807
 
 # C time functions demo：
 
@@ -18,8 +18,6 @@ topmost: true
 #include        <errno.h>
 #include        <sys/time.h>
 #include        <time.h> /*on linux, this header is also needed*/
-
-
 
 int main(){
     struct tm localct ;
@@ -34,8 +32,6 @@ int main(){
     time_t  now = time(NULL);
     diff = difftime(now, m_field);
     fprintf(stderr, "time diff is %f\n", diff);
-
-  
    time_t rawtime;
    struct tm *info;
    time( &rawtime );
@@ -87,7 +83,31 @@ int main(){
 		};
 ```
 
-# 特别注意
+# C/CPP生成时间戳
+
+```c++
+#include <sys/time.h>
+#include <iostream>
+#include <chrono>
+#include <cstdint>
+
+
+using namespace std;
+using namespace std::chrono;
+
+int main() {
+    struct timeval tp;
+    gettimeofday(&tp, NULL);
+    long int ms = tp.tv_sec * 1000 + tp.tv_usec / 1000; //get current timestamp in milliseconds
+    cout << ms << endl;
+
+    uint64_t ms2 = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
+    cout <<  ms2 << endl;
+
+}
+```
+
+ 特别注意
 
 - 不要使用 `if(time.second % 60  = 0){event()}` 这种去做timer, 十分可能在指定时间时并没有执行到这个判断
 
@@ -100,4 +120,5 @@ int main(){
       It should be 0, because, as you say, DST is not in effect.
       It should be 0, because DST was not in effect at that time.
 
-  在我们的程序中使用到 `struct tm` 时必须对tm_isdst成员进行设定， 中国应当未0，不能假定编译器会将其初始化为0， 避免时间差几个小时。
+  在我们的程序中使用到 `struct tm` 时必须对tm_isdst成员进行设定， 中国应当为0，不能假定编译器会将其初始化为0， 避免时间差几个小时。
+

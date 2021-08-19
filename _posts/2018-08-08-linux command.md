@@ -7,7 +7,7 @@ keywords: 		Linux, Shell
 topmost: true
 ---
 
-常用的一些linux命令和操作， update@20201124
+常用的一些linux命令和操作， update@20210807
 
 # shell(file i/o)
 
@@ -117,11 +117,15 @@ topmost: true
 # sed
 
 - sed "s/foo/bar/g" testfile > testchangedfile
+
 - sed "s/foo/bar/2g" inputfile > outputfile [(http://write.flossmanuals.net/linea-de-comando/sed/)]()
+
 - ls -I "*Diary.md" -I "template.md" -I "*.ps1" | xargs -d '\n' sed -i '7i\topmost: true'    #insert string at line 7
 
+- 
+  sed '/^L/d' file, [sed - 25 examples to delete a line or pattern in a file](https://www.theunixschool.com/2012/06/sed-25-examples-to-delete-line-or.html)
 
-# vim 
+# vim
 
 - vim, :%s/foo/bar/g
 
@@ -137,10 +141,11 @@ topmost: true
 
 - do not use vi, vi can be awlful with large files, use more
 
-- ```shell
-  :w !sudo tee %
-  ```
+- use `yiw` to copy a word
 
+- `u` for undo, `ctrl + r` for redo
+
+- write with sudo, `:w !sudo tee %`
 - copy and paste :
 
   - Place the cursor on the line you want to begin cutting.
