@@ -141,11 +141,19 @@ topmost: true
 
 - do not use vi, vi can be awlful with large files, use more
 
+- ```
+  Ctrl-D  move half-page down
+  Ctrl-U  move half-page up
+  Ctrl-B  page up
+  Ctrl-F  page down
+  ```
+
 - use `yiw` to copy a word
 
 - `u` for undo, `ctrl + r` for redo
 
 - write with sudo, `:w !sudo tee %`
+
 - copy and paste :
 
   - Place the cursor on the line you want to begin cutting.
