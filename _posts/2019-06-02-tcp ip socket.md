@@ -55,5 +55,5 @@ client端的处理比较简单，过程如下
 - socket睡眠队列上的排他节点，read [Socket层实现系列 — 睡眠驱动的同步等待](https://blog.csdn.net/zhangskd/article/details/45770323), [[Linux网络编程“惊群”问题总结](https://www.cnblogs.com/Anker/p/7071849.html)
 - [TCP新手误区--粘包的处理](https://blog.csdn.net/bjrxyz/article/details/73351248)
 - [TCP新手误区--心跳的意义](https://blog.csdn.net/bjrxyz/article/details/71076442)
-
+- [ the address ***0.0.0.0***](https://en.wikipedia.org/wiki/0.0.0.0)
 

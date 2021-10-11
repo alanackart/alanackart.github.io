@@ -47,6 +47,9 @@
 - name: Cartesian product
   url: https://en.wikipedia.org/wiki/Cartesian_product
   src: math  
+- name: Quadratic formula
+  url: https://en.wikipedia.org/wiki/Quadratic_formula
+  src: math    
 - name: Regular Expressions (Regex) Cheat Sheet
   url: https://www.petefreitag.com/cheatsheets/regex/
   src: tech

@@ -4,6 +4,7 @@ title:      	Java Native Memory
 categories: 	Java
 description:   	记一次java程序系统内存占用太大的处理
 keywords: 		Java/memory
+topmost: true
 ---
 
 记一次java程序系统内存占用太大的处理 update@20210928
