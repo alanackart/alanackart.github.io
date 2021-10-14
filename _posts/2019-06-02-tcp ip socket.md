@@ -6,7 +6,7 @@ description:   	Computer Networks(TCP/IP) & Socket Programming()
 keywords: 		network, TCP/IP
 topmost: true
 ---
-网络知识的总结， Socket编程经验
+网络知识的总结， Socket编程经验, update@20211014
 
 # TCP协议的特点
 
@@ -56,4 +56,5 @@ client端的处理比较简单，过程如下
 - [TCP新手误区--粘包的处理](https://blog.csdn.net/bjrxyz/article/details/73351248)
 - [TCP新手误区--心跳的意义](https://blog.csdn.net/bjrxyz/article/details/71076442)
 - [ the address ***0.0.0.0***](https://en.wikipedia.org/wiki/0.0.0.0)
+- [双网卡绑定](https://blog.csdn.net/cymm_liu/article/details/8458003)
 

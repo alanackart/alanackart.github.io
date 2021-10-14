@@ -349,3 +349,5 @@ alter table CSTP_04_LF_GRP add constraint PK_CSTP_04_LF_GRP primary key (CUS_NUM
 
 - [被誤會的函數 FIRST_VALUE 及 LAST_VALUE](https://dotblogs.com.tw/jamesfu/2013/05/17/lastvalue)
 
+- [oracle全文索引（全文检索）的介绍，使用和创](https://blog.csdn.net/weeknd/article/details/71576864)
+

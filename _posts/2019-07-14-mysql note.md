@@ -49,4 +49,5 @@ Oracle 使用双引号对列进行重命名， 默认情况下对象（列）的
 - [MySQL show current connection info](https://stackoverflow.com/questions/3613704/mysql-show-current-connection-info)：`select user();`
 - [MySQL List Users – How to List MySQL User Accounts via command line?](https://www.fastwebhost.in/blog/mysql-list-users-how-to-list-mysql-user-accounts-via-command-line/) `SELECT User FROM mysql.user;`
 - [Obtaining Execution Plan Information](https://dev.mysql.com/doc/refman/5.5/en/explain.html)
+- [MySQL索引原理一 索引类型](https://segmentfault.com/a/1190000039713841)
 
