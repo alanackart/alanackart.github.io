@@ -19,10 +19,7 @@
   {% assign temp = category[1].size | minus: min | times: 36 | divided_by: diff %}
   {% assign base = temp | divided_by: 4 %}
   {% assign remain = temp | modulo: 4 %}
-  
-  {% if {{ category[0] }} == 'Diary' %}
-    {% assign size = base | plus: 9 %}
-  {% elsif remain == 0 %}
+  {% if remain == 0 %}
     {% assign size = base | plus: 9 %}
   {% elsif remain == 1 or remain == 2 %}
     {% assign size = base | plus: 9 | append: '.5' %}

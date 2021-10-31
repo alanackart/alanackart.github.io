@@ -7,7 +7,7 @@ keywords: 		Linux, Shell
 topmost: true
 ---
 
-常用的一些linux命令和操作， update@20210807
+常用的一些linux命令和操作， update@20211030
 
 # shell(file i/o)
 
@@ -362,4 +362,6 @@ echo "${c}"
 - [5 Ways to Empty or Delete a Large File Content in Linux](https://www.tecmint.com/empty-delete-file-content-linux/)
 - [Grep - Input File is also the output file](https://stackoverflow.com/questions/41062724/grep-input-file-is-also-the-output-file)
 - [tr Command](https://www.ibm.com/support/knowledgecenter/ssw_aix_72/t_commands/tr.html)
+-  [Awk Text Split and Delimit Examples](https://www.poftut.com/awk-text-split-delimit-examples/)
+- [Tell fs to free space from deleted files NOW](https://unix.stackexchange.com/questions/34140/tell-fs-to-free-space-from-deleted-files-now)
 
