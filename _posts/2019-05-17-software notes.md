@@ -16,6 +16,7 @@ topmost: true
 - task manager: ctr + alt + del
 - c:/windows/explore.exe
 - C:\Windows\System32\ctfmon.exe      (input method can not switch)
+- [gitfor windows](https://gitforwindows.org/index.html) Git BASH
 
 ## commands
 

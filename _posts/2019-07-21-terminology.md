@@ -35,6 +35,10 @@ the trait bound `{float}: std::ops::AddAssign<{integer}>` is not satisfied， A 
 
 recursion vs iteration vs dynamic programming
 
+# loose coupling
+
+Loose coupling is an approach to interconnecting the components in a system or [network](https://www.techtarget.com/searchnetworking/definition/network) so that those components, also called elements, depend on each other to the least extent practicable. Coupling refers to the degree of direct knowledge that one element has of another.
+
 # ephemeral vs persistent storage
 
 # CUDA
@@ -52,8 +56,6 @@ recursion vs iteration vs dynamic programming
 ## detach
 
 leave or separate oneself from (a group or place).
-
-
 
 # Others
 

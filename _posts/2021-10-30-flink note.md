@@ -22,7 +22,9 @@ The job master is responsible for the execution of a single [`JobGraph`](https:/
 
 It offers the following methods as part of its rpc interface to interact with the JobMaster remotely:
 
+## Tumbling Windows (Aggregations Using GROUP BY)
 
+When a windowed query processes each window in a non-overlapping manner, the window is referred to as a *tumbling window*. In this case, each record on an in-application stream belongs to a specific window. It is processed only once (when the query processes the window to which the record belongs).
 
 # ReadList
 
