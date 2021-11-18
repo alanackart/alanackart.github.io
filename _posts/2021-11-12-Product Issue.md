@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	On a logging framework
+title:      	Product Issue
 categories: 	[Linux, Bug]
 description:    On a logging framework
 keywords: 		Linux
