@@ -7,7 +7,7 @@ keywords: 		Linux, Shell
 topmost: true
 ---
 
-常用的一些linux命令和操作， update@20211030
+常用的一些linux命令和操作， update@20220428
 
 # shell(file i/o)
 
@@ -49,6 +49,8 @@ topmost: true
 
 - ls -lh
 
+- **ls -alrt /proc/<pid>/fd, list fd used by process**
+
 - du -hs .  (size of direcitory)
 
 - ls .* (Be careful with hidden files o use `ls -al | grep 'pattern'` instead
@@ -85,7 +87,7 @@ topmost: true
 
 - for f in *902.jar; do mv -v "$f" "$(echo "$f" | sed s/902/904/)"; done
 
-# grep 
+# grep
 
 - grep -rn . -e 'pattern'(不要使用-w选项)
 - `grep -o 'needle' file | wc -l`

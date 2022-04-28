@@ -7,7 +7,7 @@ keywords: 		Software
 topmost: true
 ---
 
-各种奇妙的软件, update@20201014
+各种奇妙的软件, update@20220428
 
 # Windows
 
@@ -21,6 +21,8 @@ topmost: true
 ## commands
 
 - netstat -ano  | findstr 5840
+- wmic process where caption="python.exe" get commandline,processid
+- tskill 15684
 
 ## Excel
 
@@ -42,6 +44,7 @@ topmost: true
 - everything: index & search file
 - Vmware WrokStation
 - [Balabolka](http://www.cross-plus-a.com/balabolka.htm)： Text-To-Speech (TTS) program
+- [Rufus](https://github.com/pbatard/rufus) :Create bootable USB drives the easy way
 
 ## Vmware WrokStation
 
@@ -86,7 +89,7 @@ Ubuntu安装后大约会占6G的空间， 60G磁盘就会占用到10%， 好伤�
 - openhub for github
 - LDOCE 5(see huawei  drive)
 
-ReadList
+# ReadList
 
 - [excel 打开csv中，数值类型超15位后变0](https://blog.csdn.net/q944324153/article/details/82994999)
 - [Is there anyway to get TortoiseSVN to leave EOL (line endings) as is?](https://stackoverflow.com/questions/11587806/is-there-anyway-to-get-tortoisesvn-to-leave-eol-line-endings-as-is)

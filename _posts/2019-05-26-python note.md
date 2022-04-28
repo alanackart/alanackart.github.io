@@ -39,7 +39,21 @@ python -m test.py
 a, b  = b, a+b  实际上是元组tupple的赋值， 等价于(a, b) = (b, a+b)而非a=b, b=a+b(实际上，C, C++, JAVA
 都没有这样的赋值)
 
-# python docstring(java docstring, c/cpp  docstring?)
+# 关于__slots__
+
+The special attribute [`__slots__`](https://docs.python.org/3/reference/datamodel.html#slots) allows you to explicitly state which instance attributes you expect your object instances to have, with the expected results:
+
+1. **faster** attribute access.
+2. **space savings** in memory.
+
+# global关键字的作用
+
+The basic rules for `global` keyword in Python are:
+
+- When we create a variable inside a function, it is local by default.
+- When we define a variable outside of a function, it is global by default. You don't have to use `global` keyword.
+- We use `global` keyword to read and write a global variable inside a function.
+- Use of `global` keyword outside a function has no effect.
 
 # python multiline comment
 
@@ -58,6 +72,40 @@ line 2
 line 3"""
 ```
 
+# Built-in Class Attributes
+
+| Attribute    | Description                                                  |
+| :----------- | :----------------------------------------------------------- |
+| `__dict__`   | This is a dictionary holding the class namespace.            |
+| `__doc__`    | This gives us the class documentation if documentation is present. `None` otherwise. |
+| `__name__`   | This gives us the class name.                                |
+| `__module__` | This gives us the name of the module in which the class is defined. In an interactive mode it will give us `__main__`. |
+| `__bases__`  | A possibly empty tuple containing the base classes in the order of their occurrence. |
+
+# Built-in Functions
+
+
+
+# Built-in Data Types
+
+| Text Type:      | `str`                              |
+| --------------- | ---------------------------------- |
+| Numeric Types:  | `int`, `float`, `complex`          |
+| Sequence Types: | `list`, `tuple`, `range`           |
+| Mapping Type:   | `dict`                             |
+| Set Types:      | `set`, `frozenset`                 |
+| Boolean Type:   | `bool`                             |
+| Binary Types:   | `bytes`, `bytearray`, `memoryview` |
+
+
+
+
+
 # Problems
 
 - Python如何使用C/C++代码
+
+# Read
+
+1.   [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/)
+2. [`typing`](https://docs.python.org/3/library/typing.html#module-typing) — Support for type hints
