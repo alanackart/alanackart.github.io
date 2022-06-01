@@ -108,4 +108,5 @@ line 3"""
 # Read
 
 1.   [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/)
-2. [`typing`](https://docs.python.org/3/library/typing.html#module-typing) — Support for type hints
+2. [`typing`— Support for type hints](https://docs.python.org/3/library/typing.html#module-typing) 
+2. [When to use yield instead of return in Python?](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/)
