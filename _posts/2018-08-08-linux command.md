@@ -347,7 +347,7 @@ topmost: true
 
 # 脚本调试
 
-- 使用`bash -x`或`set -x`进行，详情阅读[如何调试BASH脚本](https://coolshell.cn/articles/1379.html)
+- 使用`bash -x`或`set -x`进行，详情阅读[如何调试BASH脚本](https://coolshell.cn/articles/1379.html)   
 
 # 字符串拼接
 
