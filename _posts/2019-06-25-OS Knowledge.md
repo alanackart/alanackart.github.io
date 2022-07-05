@@ -7,7 +7,7 @@ keywords: 		Linux
 topmost: true
 ---
 
-Linux服务器知识及几次生产事故(tragedy)总结(最后更新于20200622)
+Linux服务器知识及几次生产事故(tragedy)总结(最后更新于20220705)
 
 # 进程pid重用
 
@@ -58,6 +58,8 @@ SMP是Symmetric Multi Processing的简称，意为**对称多处理系统**，�
 - [Linux用户模式和内核模式](https://blog.csdn.net/xjc200808/article/details/47166821)
 
 - [10分钟看懂Docker和K8S](https://zhuanlan.zhihu.com/p/53260098)
+
+- [[子进程写标准输出，父进程未读导致卡住]](https://stackoverflow.com/questions/16983372/why-does-process-hang-if-the-parent-does-not-consume-stdout-stderr-in-java)
 
 - [Solaris File descriptors - Solaris 2.4 through Solaris11 (Doc ID 1005979.1)](https://support.oracle.com/knowledge/Sun%20Microsystems/1005979_1.html) 
 

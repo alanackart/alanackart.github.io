@@ -7,7 +7,7 @@ keywords: 		  MySQL, SQL
 topmost: true
 ---
 
-MySQL从删除到跑路
+MySQL从删除到跑路, update@20220705
 
 # 从删除到跑路
 
@@ -50,4 +50,5 @@ Oracle 使用双引号对列进行重命名， 默认情况下对象（列）的
 - [MySQL List Users – How to List MySQL User Accounts via command line?](https://www.fastwebhost.in/blog/mysql-list-users-how-to-list-mysql-user-accounts-via-command-line/) `SELECT User FROM mysql.user;`
 - [Obtaining Execution Plan Information](https://dev.mysql.com/doc/refman/5.5/en/explain.html)
 - [MySQL索引原理一 索引类型](https://segmentfault.com/a/1190000039713841)
+- [UNIQUE VS DISTINCT](https://stackoverflow.com/questions/336268/difference-between-select-unique-and-select-distinct)
 
