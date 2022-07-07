@@ -368,4 +368,5 @@ echo "${c}"
 -  [Awk Text Split and Delimit Examples](https://www.poftut.com/awk-text-split-delimit-examples/)
 - [Tell fs to free space from deleted files NOW](https://unix.stackexchange.com/questions/34140/tell-fs-to-free-space-from-deleted-files-now)
 -  [yum whatprovides 查找通过包安装的文件,例不知本机上的jmap安装在哪里也可以用这个办法](https://stackoverflow.com/questions/1133495/how-do-i-find-which-rpm-package-supplies-a-file-im-looking-for)
+-  [What is the difference between yum, apt-get, rpm, ./configure && make install?](https://superuser.com/questions/125933/what-is-the-difference-between-yum-apt-get-rpm-configure-make-install)
 
