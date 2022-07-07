@@ -67,7 +67,7 @@ topmost: true
 
 - du -h .
 
-- df -k
+- df -k, mount -l  查看磁盘挂载情况
 
 - cp -rp source destination/
 
@@ -182,6 +182,7 @@ topmost: true
 - find $PWD -type f -iname "*.sh" -exec chmod +x {} \;
 - sudo updatedb, locate settings.xml
 - which, whereis
+- yum whatprovides jmap
 
 
 # remote access
