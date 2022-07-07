@@ -7,7 +7,7 @@ keywords: 		Linux, Shell
 topmost: true
 ---
 
-常用的一些linux命令和操作， update@20220428
+常用的一些linux命令和操作， update@20220707
 
 # shell(file i/o)
 
@@ -366,4 +366,5 @@ echo "${c}"
 - [tr Command](https://www.ibm.com/support/knowledgecenter/ssw_aix_72/t_commands/tr.html)
 -  [Awk Text Split and Delimit Examples](https://www.poftut.com/awk-text-split-delimit-examples/)
 - [Tell fs to free space from deleted files NOW](https://unix.stackexchange.com/questions/34140/tell-fs-to-free-space-from-deleted-files-now)
+-  [yum whatprovides 查找通过包安装的文件,例不知本机上的jmap安装在哪里也可以用这个办法](https://stackoverflow.com/questions/1133495/how-do-i-find-which-rpm-package-supplies-a-file-im-looking-for)
 

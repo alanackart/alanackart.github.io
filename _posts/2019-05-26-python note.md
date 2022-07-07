@@ -7,7 +7,7 @@ keywords: 		Python
 topmost: true
 ---
 
-Python知识点和总结
+Python知识点和总结（update@20220707）
 
 # pip使用国内源
 
@@ -97,10 +97,6 @@ line 3"""
 | Boolean Type:   | `bool`                             |
 | Binary Types:   | `bytes`, `bytearray`, `memoryview` |
 
-
-
-
-
 # Problems
 
 - Python如何使用C/C++代码
@@ -110,3 +106,4 @@ line 3"""
 1.   [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/)
 2. [`typing`— Support for type hints](https://docs.python.org/3/library/typing.html#module-typing) 
 2. [When to use yield instead of return in Python?](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/)
+4.   [How to escape special characters of a string with single backslashes](https://stackoverflow.com/questions/18935754/how-to-escape-special-characters-of-a-string-with-single-backslashes)
