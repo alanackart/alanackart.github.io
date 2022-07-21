@@ -7,13 +7,17 @@ keywords: 		redis, REDIS
 topmost: true
 ---
 
-redis知识点和总结 (update@20220719)
+redis知识点和总结 (update@20220721)
 
 ## jedis的pub/sub
 
 使用subscirbe对应的事件处理回调是onMessage
 
 使用psubscirbe对应的事件处理回调是onPMessage
+
+## 使用config 命令做配置，redis重启后丢失
+
+[Note that modifying the configuration on the fly has no effects on the redis.conf file so at the next restart of Redis the old configuration will be used instead.](https://redis.io/docs/manual/config/)
 
 ## Readlist
 
