@@ -7,7 +7,7 @@ keywords: 		Python
 topmost: true
 ---
 
-Python知识点和总结（update@20220707）
+Python知识点和总结（update@20220722）
 
 # pip使用国内源
 
@@ -107,3 +107,6 @@ line 3"""
 2. [`typing`— Support for type hints](https://docs.python.org/3/library/typing.html#module-typing) 
 2. [When to use yield instead of return in Python?](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/)
 4.   [How to escape special characters of a string with single backslashes](https://stackoverflow.com/questions/18935754/how-to-escape-special-characters-of-a-string-with-single-backslashes)
+5.   [Private Variables](https://docs.python.org/3.6/tutorial/classes.html#private-variables)
+6.   [Python type() Function. 1 or 3 arguments](https://www.learnbyexample.org/python-type-function/)
+
