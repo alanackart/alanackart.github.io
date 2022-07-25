@@ -109,4 +109,5 @@ line 3"""
 4.   [How to escape special characters of a string with single backslashes](https://stackoverflow.com/questions/18935754/how-to-escape-special-characters-of-a-string-with-single-backslashes)
 5.   [Private Variables](https://docs.python.org/3.6/tutorial/classes.html#private-variables)
 6.   [Python type() Function. 1 or 3 arguments](https://www.learnbyexample.org/python-type-function/)
+7.   [Python Generators](https://www.scaler.com/topics/python/python-generators/)
 
